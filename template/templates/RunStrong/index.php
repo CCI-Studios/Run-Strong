@@ -54,24 +54,48 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
 <body class="<?= $menu ?>">
 
-	<div id="wrapper">
-		<header>
-			<jdoc:include type="modules" name ="header" style="xhtml" />
-		</header>
-
-		<div id="main">
-			<aside>
-				<jdoc:include type="modules" name="left" style="xhtml" />
-			</aside>
-
-			<article>
-				<jdoc:include type="component" />
-			</article>
+	<div id="header">
+		<div class="container">
+			<jdoc:include type="modules" name="header" style="xhtml" />
 		</div>
-
-		<footer>
+	</div>
+	
+	<div id="masthead">
+		<div class="container">
+			<jdoc:include type="modules" name="masthead" style="xhtml" />
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	
+	<div id="wrapper">
+		<div id="content" class="left">
+			<jdoc:include type="component" />
+		</div>
+		<div id="sidebar" class="right">
+			<jdoc:include type="modules" name="sidebar" style="xhtml" />
+			sidebar
+		</div>
+		<div class="clear"></div>
+		<div id="bottom">
+			<jdoc:include type="modules" name="bottom" style="xhtml" />
+		</div>
+	</div>
+	
+	
+	
+	<div id="footer">
+		<div class="container">
 			<jdoc:include type="modules" name="footer" style="xhtml" />
-		</footer>
+		</div>
+	</div>
+	
+	<div id="copyright">
+		<div class="container">
+			<span class="copy_style left">&copy; <?php echo date('Y') ?> 
+				<span class="logo_style">run strong<span class="pinkdot">.</span></span> All Rights Reserved.</span>
+			<span class="copy_style right">Site by CCI Studios</span>
+		</div>
 	</div>
 
 	<div class="hidden">

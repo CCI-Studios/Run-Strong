@@ -1,1 +1,60 @@
 /* layout */
+
+body {
+	background: url('../resources/bg.png') top center no-repeat;
+}
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+#header {
+	background-color: #000;
+	min-height:50px;
+}
+
+#masthead {
+	background: url('../resources/masthead_shadow.png') top center no-repeat;
+	margin: 0 0 10px;
+	padding-top: 22px;
+}
+
+#masthead .container {
+
+}
+
+#wrapper {
+	width: 920px;
+	padding: 79px 10px 0px;
+	margin: 10px auto;
+	background-color: #fff;
+	border: 1px solid #d7d7d7;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+	behavior: url('../resources/PIE.htc');
+}
+
+#content {
+	max-width: 590px;
+	padding:0 30px 0 10px;
+}
+
+#sidebar {
+	min-width: 240px;
+	padding: 0 10px 0 30px;
+	border-left: 1px solid #dddddd;
+}
+
+#footer {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#copyright {
+	padding-top:10px;
+	min-height: 90px;
+	font-size: 10px;
+	background: #e5e5e5 url('../resources/copyright_shadow.png') top center no-repeat;
+}

@@ -1,41 +1,82 @@
-/* @group modules */
-.moduletable {}
+/* masthead */
 
-/* @group hmenu */
-.moduletable_hmenu {}
+/*menu*/
+#masthead .moduletable {
+	margin-bottom: 10px;
+}
 
-.moduletable_hmenu > ul {
+#masthead .moduletable_hmenu {
+	clear: both;
+	float:right;
+	margin: 20px 0 0 0;
+}
+
+#masthead .moduletable_hmenu > ul {
 	margin: 0;
 	padding: 0;
 }
 
-.moduletable_hmenu > ul > li {
+#masthead .moduletable_hmenu > ul > li {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
 	position: relative;
-	
-	padding: 0 5px;
+	padding-left: 30px;
 }
 
-.moduletable_vmenu > ul > li > a,
-.moduletable_vmenu > ul > li > span {
-	display: block;
+#masthead a, a:active, a:visited {
+	color: #343434;
+	text-decoration: none;
 }
 
-.moduletable_vmenu > ul > li > a span,
-.moduletable_vmenu > ul > li > span span {
-	
+#masthead a:hover {
+	color: #ec008c;
+	text-decoration: none;
 }
 
-.moduletable_vmenu ul ul {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
+#masthead p {
+	margin: 0px;
 }
+
 /* /hmenu */
 
+/* @top hmenu */
+#footer .moduletable_hmenu {
+	text-align: center;
+	line-height:10px;
+	font-size: 10.6px;
+	margin: 44px 0 15px 0;
+}
+
+#footer .moduletable_hmenu > ul {
+	margin: 0;
+	padding: 0;
+}
+
+#footer .moduletable_hmenu > ul > li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: relative;
+	padding: 0 10px;
+	border-left: 1px solid #9b9b9b
+}
+
+#footer .moduletable_hmenu li:first-child {
+	border: none;
+}
+
+#footer a, a:active, a:visited {
+	color: #9b9b9b;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #ec008c;
+	text-decoration: none;
+}
+
+/* /hmenu */
 
 /* @group vmenu */
 .moduletable_vmenu {}
