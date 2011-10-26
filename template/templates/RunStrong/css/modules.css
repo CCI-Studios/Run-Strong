@@ -6,9 +6,8 @@
 }
 
 #masthead .moduletable_hmenu {
-	clear: both;
 	float:right;
-	margin: 20px 0 0 0;
+	margin: 20px 0 10px 0;
 }
 
 #masthead .moduletable_hmenu > ul {
@@ -101,20 +100,25 @@
 	margin: 0 10px 0 0;
 }
 
-#sidebar p {
-	padding: 10px 0 0 0;
-	margin: 0;
-	border-top: 2px solid #e7e7e7;
+#sidebar .moduleCustomLink {
+	float:right;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ec008c;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
-#sidebar p:first-child {
-	border-top: none;
+#sidebar .moduleCustomLink:hover {
+	text-decoration: underline;
 }
+
 
 /*Bottom*/
 
 #bottom {
-	line-height: 15px;
+	line-height: 14px;
+	font-size:12px;
 }
 
 #bottom img {
@@ -133,6 +137,90 @@
 #bottom p:first-child {
 	border-top: none;
 }
+
+#bottom .moduletable {
+	position:relative;
+	float: left;
+	width: 240px;
+	min-height: 300px;
+	background-color: #fff;
+	border: 1px solid #d7d7d7;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+	behavior: url('../resources/PIE.htc');
+	margin: 50px 0 0 47px;
+	padding: 20px 20px 30px;
+	
+	box-shadow: 0 6px 10px 0px rgba(208, 208, 208,0.7);
+}
+
+#bottom .moduletable:first-child {
+	margin-left: 0;
+}
+
+#bottom .moduleCustomLink {
+	display: block;
+	padding: 0 20px;
+	position: absolute;
+	bottom: -17px;
+	left: 89px;
+	line-height: 34px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ec008c;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	border: 1px solid #ccc;
+	background-image: url(../button.png) no-repeat;
+	background-image: -moz-linear-gradient(bottom, #ccc, #fcfcfc 45%, #fff);
+	background-image: -webkit-linear-gradient(bottom, #ccc, #fcfcfc 45%, #fff);
+	border-radius: 18px;
+	box-shadow: 0 2px 2px #888;
+}
+
+#bottom .moduleCustomLink:hover {
+	text-decoration: underline;
+}
+
+/*START OF 'BLOG' MODULE*/
+
+#bottom .feed ul {
+	padding: 0;
+	margin-top:0;
+}
+
+#bottom .feed li {
+	list-style: none;
+	border-top: 2px solid #e7e7e7;
+	padding: 10px 0;
+}
+
+#bottom .feed h4 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	text-decoration:none;
+	margin: 0 0 5px 0;
+}
+
+#bottom .feed li:first-child {
+	border-top: none;
+}
+
+#bottom .feed a, a:active, a:visited, a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+#bottom .feed p {
+	border: none;
+}
+
+
+
+/*END Of BOTTOM*/
 
 
 

@@ -25,13 +25,14 @@ body {
 /*MASTHEAD*/
 #masthead {
 	background: url('../resources/masthead_shadow.png') top center no-repeat;
-	margin: 0 0 10px;
 	padding-top: 22px;
 }
 
-#masthead .container {
+#masthead .container {}
 
-}
+/*NEEDS TO BE REMOVED*/
+#masthead .moduletable_img {position:relative; left:-10px; margin-top:5px;}
+
 /*END MASTHEAD*/
 
 #wrapper {
@@ -52,28 +53,15 @@ body {
 }
 
 #sidebar {
-	max-width: 240px;
+	width: 240px;
 	padding: 0 10px 0 30px;
 	border-left: 1px solid #dddddd;
 }
 
 /*BOTTOM*/
 
-#bottom .moduletable {
-	float: left;
-	width: 240px;
-	background-color: #fff;
-	border: 1px solid #d7d7d7;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-	behavior: url('../resources/PIE.htc');
-	margin-left: 47px;
-	padding: 20px;
-}
-
-#bottom .moduletable:first-child {
-	margin-left: 0;
+#bottom {
+	background: url('../resources/bottom_shadowtop.png') top center no-repeat;
 }
 
 /*END BOTTOM*/
@@ -86,5 +74,5 @@ body {
 	padding-top:10px;
 	min-height: 90px;
 	font-size: 10px;
-	background: #e5e5e5 url('../resources/copyright_shadow.png') top center no-repeat;
+	background: #f2f2f3 url('../resources/copyright_shadow.png') top center no-repeat;
 }

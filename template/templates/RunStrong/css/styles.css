@@ -11,19 +11,16 @@
 ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
 ::selection { background:#FF5E99; color:#fff; text-shadow: none; }
 
-.pink { 
-	color: #EC008C;
-	font-size: 9px;
-}
-
+/*FOR K2 MODULES*/
 .linebreak { 
 	border-top: 2px solid #e7e7e7;
-	padding:10px 0;
+	padding: 10px 0 0;
+	margin-top: 10px;
 }
 
 .linebreak:first-child { 
-	border-top: none;
-	padding-top:0px;
+	border-top: 0;
+	margin-top: 0;
 }
 
 .blacktitle {
@@ -31,6 +28,8 @@
 	font-weight: bold;
 	color: #000;
 	text-decoration:none;
+	margin-bottom:5px;
+	font-family:segoebold;
 }
 
 .blacktitle a, a:active, a:visited, a:hover {
@@ -38,6 +37,12 @@
 	text-decoration: none;
 }
 
+/*END OF K2 MODULES*/
+
+.pink { 
+	color: #EC008C;
+	font-size: 9px;
+}
 
 .copy_style a, .copy_style a:visited {
 	font-family: segoe;

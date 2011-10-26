@@ -41,7 +41,7 @@ defined('_JEXEC') or die('Restricted access');
 
 	  <?php if($this->item->params->get('itemTitle')): ?>
 	  <!-- Item title -->
-	  <h2 class="itemTitle">
+	  <h1 class="itemTitle">
 			<?php if(isset($this->item->editLink)): ?>
 			<!-- Item edit link -->
 			<span class="itemEditLink">
@@ -51,7 +51,7 @@ defined('_JEXEC') or die('Restricted access');
 			</span>
 			<?php endif; ?>
 			
-	  	<?php echo $this->item->title; ?>
+	  	<span><?php echo $this->item->title; ?></span>
 
 	  	<?php if($this->item->params->get('itemFeaturedNotice') && $this->item->featured): ?>
 	  	<!-- Featured flag -->
@@ -62,7 +62,7 @@ defined('_JEXEC') or die('Restricted access');
 	  	</span>
 	  	<?php endif; ?>
 
-	  </h2>
+	  </h1>
 	  <?php endif; ?>
 
 		<?php if($this->item->params->get('itemAuthor')): ?>

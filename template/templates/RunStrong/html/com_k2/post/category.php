@@ -56,7 +56,7 @@ defined('_JEXEC') or die('Restricted access');
 
 			<?php if($this->params->get('catTitle')): ?>
 			<!-- Category title -->
-			<h2><?php echo $this->category->name; ?><?php if($this->params->get('catTitleItemCounter')) echo ' ('.$this->pagination->total.')'; ?></h2>
+			<h1><span><?php echo $this->category->name; ?><?php if($this->params->get('catTitleItemCounter')) echo ' ('.$this->pagination->total.')'; ?></span></h1>
 			<?php endif; ?>
 
 			<?php if($this->params->get('catDescription')): ?>

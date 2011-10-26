@@ -7,10 +7,14 @@
 <?php
 // get current menu name
 $menu = JSite::getMenu();
-if ($menu && $menu->getActive())
-    $menu = $menu->getActive()->alias;
-else
+if ($menu && $menu->getActive()) {
+		$menu = $menu->getActive();
+		$page_sfx = $menu->params->get('pageclass_sfx');
+    $menu = $menu->alias;
+} else {
 	$menu = "";
+	$page_sfx = "";
+}
 
 if ($_SERVER['SERVER_PORT'] === 8888 ||
 		$_SERVER['SERVER_ADDR'] === '127.0.0.1' ||
@@ -69,7 +73,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		</div>
 	</div>
 	
-	<?php if ($this->countModules('masthead')): ?>
+	<?php if ($page_sfx !== '_hidden'): ?>
 	<div id="wrapper">
 		<div id="content" class="left">
 			<jdoc:include type="component" />
@@ -81,11 +85,14 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 	</div>
 	<?php endif; ?>
 	
+	<?php if ($this->countModules('bottom')): ?>
 	<div id="bottom">
 		<div class="container">
 			<jdoc:include type="modules" name="bottom" style="xhtml2" />
+			<div class="clear"></div>
 		</div>
 	</div>
+	<?php endif; ?>
 	
 	<div class="clear"></div>
 	

@@ -28,6 +28,7 @@
 
 	<positions>
 		<position>header</position>
+		<position>wrapper</position>
 		<position>masthead</position>
 		<position>content</position>
 		<position>sidebar</position>
