@@ -9,12 +9,20 @@ body {
 	padding: 0 10px;
 	margin: 0 auto;
 }
-
+/*HEADER*/
 #header {
 	background-color: #000;
 	min-height:50px;
 }
 
+/*NEEDS TO BE REMOVED*/
+#header img {
+	float: right;
+	margin: 5px 5px 0 0;
+}
+/*END HEADER*/
+
+/*MASTHEAD*/
 #masthead {
 	background: url('../resources/masthead_shadow.png') top center no-repeat;
 	margin: 0 0 10px;
@@ -24,10 +32,11 @@ body {
 #masthead .container {
 
 }
+/*END MASTHEAD*/
 
 #wrapper {
 	width: 920px;
-	padding: 79px 10px 0px;
+	padding: 79px 10px 10px;
 	margin: 10px auto;
 	background-color: #fff;
 	border: 1px solid #d7d7d7;
@@ -38,15 +47,36 @@ body {
 }
 
 #content {
-	max-width: 590px;
+	width: 590px;
 	padding:0 30px 0 10px;
 }
 
 #sidebar {
-	min-width: 240px;
+	max-width: 240px;
 	padding: 0 10px 0 30px;
 	border-left: 1px solid #dddddd;
 }
+
+/*BOTTOM*/
+
+#bottom .moduletable {
+	float: left;
+	width: 240px;
+	background-color: #fff;
+	border: 1px solid #d7d7d7;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+	behavior: url('../resources/PIE.htc');
+	margin-left: 47px;
+	padding: 20px;
+}
+
+#bottom .moduletable:first-child {
+	margin-left: 0;
+}
+
+/*END BOTTOM*/
 
 #footer {
 	border-bottom: 1px solid #e5e5e5;

@@ -31,17 +31,18 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: segoebold, helvetica, arial, sans-serif;
 }
 
+/*This is the main header for content*/
 #wrapper h2 {
 	margin: -79px 0 20px 0;
 	padding: 20px 0;
 	border-bottom: 1px solid #e1e1e1;
-	width: 920px;
+	width: 900px;
 }
 
-#sidebar h1, h2, h3, h4, h5, h6 {
-	margin: 0;
+#sidebar h3, #bottom h3 {
 	padding-bottom: 15px;
 	border-bottom: 1px solid #e1e1e1;
+	margin: 0 0 10px 0;
 }
 
 #masthead a, a:active, a:visited {

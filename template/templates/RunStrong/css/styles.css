@@ -11,8 +11,43 @@
 ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
 ::selection { background:#FF5E99; color:#fff; text-shadow: none; }
 
-.copy_style {
+.pink { 
+	color: #EC008C;
+	font-size: 9px;
+}
+
+.linebreak { 
+	border-top: 2px solid #e7e7e7;
+	padding:10px 0;
+}
+
+.linebreak:first-child { 
+	border-top: none;
+	padding-top:0px;
+}
+
+.blacktitle {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	text-decoration:none;
+}
+
+.blacktitle a, a:active, a:visited, a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+
+.copy_style a, .copy_style a:visited {
 	font-family: segoe;
+	color: #989898;
+	text-decoration:none;
+}
+
+.copy_style a:active, .copy_style a:hover {
+	color: #ec008c;
+	text-decoration:none;
 }
 
 .logo_style {

@@ -57,6 +57,8 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 	<div id="header">
 		<div class="container">
 			<jdoc:include type="modules" name="header" style="xhtml" />
+			<!-- THIS IMG NEEDS TO BE REMOVED -->
+			<img src="templates/RunStrong/resources/countdown.png" width="196" height="40" alt="Countdown">
 		</div>
 	</div>
 	
@@ -67,22 +69,25 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		</div>
 	</div>
 	
-	
+	<?php if ($this->countModules('masthead')): ?>
 	<div id="wrapper">
 		<div id="content" class="left">
 			<jdoc:include type="component" />
 		</div>
-		<div id="sidebar" class="right">
-			<jdoc:include type="modules" name="sidebar" style="xhtml" />
-			sidebar
+		<div id="sidebar" class="left">
+			<jdoc:include type="modules" name="sidebar" style="xhtml2" />
 		</div>
 		<div class="clear"></div>
-		<div id="bottom">
-			<jdoc:include type="modules" name="bottom" style="xhtml" />
+	</div>
+	<?php endif; ?>
+	
+	<div id="bottom">
+		<div class="container">
+			<jdoc:include type="modules" name="bottom" style="xhtml2" />
 		</div>
 	</div>
 	
-	
+	<div class="clear"></div>
 	
 	<div id="footer">
 		<div class="container">
@@ -94,7 +99,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		<div class="container">
 			<span class="copy_style left">&copy; <?php echo date('Y') ?> 
 				<span class="logo_style">run strong<span class="pinkdot">.</span></span> All Rights Reserved.</span>
-			<span class="copy_style right">Site by CCI Studios</span>
+			<span class="copy_style right"><a href="http://ccistudios.com">Site by CCI Studios</a></span>
 		</div>
 	</div>
 
