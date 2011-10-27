@@ -15,26 +15,11 @@
 .linebreak { 
 	border-top: 2px solid #e7e7e7;
 	padding: 10px 0 0;
-	margin-top: 10px;
 }
 
 .linebreak:first-child { 
 	border-top: 0;
 	margin-top: 0;
-}
-
-.blacktitle {
-	font-size: 14px;
-	font-weight: bold;
-	color: #000;
-	text-decoration:none;
-	margin-bottom:5px;
-	font-family:segoebold;
-}
-
-.blacktitle a, a:active, a:visited, a:hover {
-	color: #000;
-	text-decoration: none;
 }
 
 /*END OF K2 MODULES*/
@@ -60,6 +45,4 @@
 	color: #000;
 }
 
-.pinkdot {
-	color: #ec008c;
-}
+.pinkdot { color: #ec008c; }
