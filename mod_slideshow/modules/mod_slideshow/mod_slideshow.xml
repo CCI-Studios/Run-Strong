@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>slideshow</name>
+	<author>Jonathan Bennett</author>
+	<creationDate>Nov 1, 2011</creationDate>
+	<copyright>Copyright (C) 2011 CCI Studios. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>jbennett@ccistudios.com</authorEmail>
+	<authorUrl>www.ccistudios.com</authorUrl>
+	<version>1.5.0</version>
+	<description></description>
+	<files>
+		<filename module="mod_slideshow">mod_slideshow.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+</install>
