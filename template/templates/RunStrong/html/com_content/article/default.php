@@ -24,14 +24,13 @@ $user		= JFactory::getUser();
 	</span></h1>
 <?php endif; ?>
 <?php if ($params->get('show_title')) : ?>
-	<h1><span>
-	<?php if ($params->get('link_titles') && !empty($this->item->readmore_link)) : ?>
-		<a href="<?php echo $this->item->readmore_link; ?>">
-		<?php echo $this->escape($this->item->title); ?></a>
-	<?php else : ?>
-		<?php echo $this->escape($this->item->title); ?>
-	<?php endif; ?>
-	</span></h1>
+	<h1><span><?php if ($params->get('link_titles') && !empty($this->item->readmore_link)) : ?>
+<a href="<?php echo $this->item->readmore_link; ?>">
+<?php echo $this->escape($this->item->title); ?></a>
+<?php else : ?>
+<?php echo $this->escape($this->item->title); ?>
+<?php endif; ?>
+</span></h1>
 <?php endif; ?>
 
 <?php if ($canEdit ||  $params->get('show_print_icon') || $params->get('show_email_icon')) : ?>

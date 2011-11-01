@@ -7,20 +7,18 @@ body, select, input, textarea {
 	line-height: 18px;
 	letter-spacing: .03em ;
 }
-
 @font-face {
- 	font-family: 'segoebold';
-	src: url('../resources/segeouib.eot');
-	src: local('ò∫'), url('/templates/runstrong/resources/segoeuib.ttf') format('truetype');
+ 	font-family: 'segoe';
+	src: url('../resources/segoeuib.eot');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
  	font-family: 'segoe';
-	src: url('../resources/segeoui.eot');
-	src: local('ò∫'), url('/templates/runstrong/resources/segoeui.ttf') format('truetype');
-	font-weight: normal;
+	src: url('../resources/segeouib.eot');
+	src: local('ò∫'), url('/templates/RunStrong/resources/segoeuib.ttf') format('truetype');
+	font-weight: bold;
 	font-style: normal;
 }
 
@@ -28,16 +26,28 @@ body, select, input, textarea {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 	color: black;
-	font-family: segoebold, helvetica, arial, sans-serif;
+	font-family: segoe, helvetica, arial, sans-serif;
 }
 
-h1, h3 { font-size: 19px; }
+h1 span, h3 span { font-size: 17px; }
 
 h4 { font-size: 14px; }
 
 h1 span,
 .moduletable h3 span {
-	background: url('../resources/pinkdot.png') no-repeat center right;
+	background: url('../resources/pinkdot.png') no-repeat right 13px;
+	padding: 0 7px 0 0;
+}
+
+.ie8 h1 span,
+.ie8 .moduletable h3 span {
+	background: url('../resources/pinkdot.png') no-repeat right 12px;
+	padding: 0 7px 0 0;
+}
+
+.ie7 h1 span,
+.ie7 .moduletable h3 span, {
+	background: url('../resources/pinkdot.png') no-repeat right 12px;
 	padding: 0 7px 0 0;
 }
 
@@ -78,10 +88,27 @@ a:hover, a:active, a:visited {
 	margin: 0 0 5px 0;
 }
 
-#bottom .feed h4 a, a:active, a:visited, a:hover,
-#K2 h4 a, a:active, a:visited, a:hover {
+#bottom .feed h4 a, 
+#bottom .feed h4 a:active, 
+#bottom .feed h4 a:visited, 
+#bottom .feed h4 a:hover,
+#K2 h4 a, 
+#K2 h4 a:active, 
+#K2 h4 a:visited, 
+#K2 h4 a:hover {
 	color: #000;
 	text-decoration: none;
 }
 
-#footer a, a:active, a:visited { color: #9b9b9b; }
+.k2ReadMore a:visited {
+	color: #EC008C ;
+}
+
+#footer a, 
+#footer a:active, 
+#footer a:visited { color: #9b9b9b; }
+
+#footer a:hover {
+	color: #ec008c;
+	text-decoration: none;
+}

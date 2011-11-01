@@ -8,8 +8,8 @@
    No text-shadow: twitter.com/miketaylr/status/12228805301
    Also: hot pink! */
 /* TODO Update selection BG color */
-::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
-::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+::-moz-selection{ background: #ec008c; color:#fff; text-shadow: none; }
+::selection { background:#ec008c; color:#fff; text-shadow: none; }
 
 /*FOR K2 MODULES*/
 .linebreak { 
@@ -41,7 +41,7 @@
 }
 
 .logo_style {
-	font-family: segoebold;
+	font-family: segoe;
 	color: #000;
 }
 

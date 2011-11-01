@@ -18,9 +18,9 @@ defined('_JEXEC') or die('Restricted access');
 	<?php endif; ?>
 
 	<?php if(count($items)): ?>
-  <div>
+  <ul>
     <?php foreach ($items as $key=>$item):	?>
-    <div class="<?php echo ($key%2) ? "odd" : "even"; if(count($items)==$key+1) echo ' lastItem'; ?> linebreak">
+    <li class="<?php echo ($key%2) ? "odd" : "even"; if(count($items)==$key+1) echo ' lastItem'; ?> linebreak">
 
       <?php echo $item->event->BeforeDisplay; ?>
       <?php echo $item->event->K2BeforeDisplay; ?>
@@ -40,7 +40,7 @@ defined('_JEXEC') or die('Restricted access');
 			<?php if ($params->get('itemIntroText')): ?>
 			<div>
 				<?php if($params->get('itemTitle')): ?>
-	      <a class="moduleItemTitle blacktitle" href="<?php echo $item->link; ?>"><?php echo $item->title; ?></a><br />
+	      <h4><a class="moduleItemTitle" href="<?php echo $item->link; ?>"><?php echo $item->title; ?></a></h4>
 	      <?php endif; ?>
 
 	      <?php echo $item->event->AfterDisplayTitle; ?>
@@ -87,10 +87,9 @@ defined('_JEXEC') or die('Restricted access');
       <?php echo $item->event->K2AfterDisplay; ?>
 
       <div class="clr"></div>
-    </div>
+    </li>
     <?php endforeach; ?>
-    <div class="clearList"></div>
-  </div>
+  </ul>
   <?php endif; ?>
 
 	<?php if($params->get('itemCustomLink')): ?>
