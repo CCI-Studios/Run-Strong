@@ -61,8 +61,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 	<div id="header">
 		<div class="container">
 			<jdoc:include type="modules" name="header" style="xhtml" />
-			<!-- TODO COUNTDOWN NEEDED (REMOVE IMG) -->
-			<img src="templates/RunStrong/resources/countdown.png" width="196" height="40" alt="Countdown">
+			<div class="clear"></div>
 		</div>
 	</div>
 	
