@@ -14,24 +14,13 @@ body {
 	margin: 0 auto;
 }
 /*HEADER*/
-#header {
-	background-color: #000;
-	height:50px;
-}
-
-/*TODO COUNTDOWN NEEDED (REMOVE THIS IMG)*/
-#header img {
-	float: right;
-	margin: 5px 5px 0 0;
-}
+#header { background-color: #000; }
+#header .container { padding: 5px 10px; }
 
 #masthead {
 	background: url('../resources/masthead_shadow.png') top center no-repeat;
 	padding-top: 22px;
 }
-
-/*TODO IMG GALLERY NEEDED (REMOVE THIS IMG)*/
-#masthead .moduletable_img {position:relative; left:-10px; margin-top:5px;}
 
 #wrapper {
 	background: url('../resources/wrapper_shadow.png') bottom center no-repeat;
@@ -41,14 +30,12 @@ body {
 .ie7 #wrapper { padding-bottom: 40px; }
 
 #wrapper > div {
-	position:relative;
-	width: 920px;
-	padding: 79px 10px 10px;
+	position:relative; /* ie */
+	width: 900px;
+	padding: 79px 20px 10px;
 	margin: 10px auto 0px ;
 	background-color: #ffffff;
 	border: 1px solid #d7d7d7;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
     border-radius: 6px;
 	box-shadow: 0 2px 3px -2px rgba(93, 93, 93, 0.9);
 	behavior: url('templates/RunStrong/resources/PIE.htc');
@@ -56,16 +43,16 @@ body {
 
 #content {
 	width: 590px;
-	padding:0 30px 0 10px;
+	padding:0 30px 0 0;
 }
 
 #sidebar {
-	width: 240px;
-	padding: 0 10px 0 30px;
+	width: 250px;
+	padding: 0 0 0 29px;
 	border-left: 1px solid #dddddd;
 }
 
-/*POST CONTAINER FOR SUPPORTERS*/
+/* POST CONTAINER FOR SUPPORTERS */
 #k2Container .itemContainer {
 	margin: 20px 0;
 }
@@ -81,6 +68,10 @@ body {
 #copyright {
 	padding-top:10px;
 	font-size: 10px;
+	font-family: segoe;
 	height: 90px;
 	background: #f2f2f3 url('../resources/copyright_shadow.png') top center no-repeat;
 }
+
+#copyright a, #copyright a:visited { color: #989898; }
+#copyright a:active, #copyright a:hover { color: #EC008C; text-decoration:none; }
