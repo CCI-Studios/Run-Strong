@@ -1,7 +1,11 @@
 /* layout */
 
 body {
-	background: url('../resources/bg.png') top center no-repeat;
+	background: #f2f2f3;
+}
+
+#bg {
+	background: white url('../resources/bg.png') top center no-repeat;
 }
 
 .container {
@@ -12,39 +16,42 @@ body {
 /*HEADER*/
 #header {
 	background-color: #000;
-	min-height:50px;
+	height:50px;
 }
 
-/*NEEDS TO BE REMOVED*/
+/*TODO COUNTDOWN NEEDED (REMOVE THIS IMG)*/
 #header img {
 	float: right;
 	margin: 5px 5px 0 0;
 }
-/*END HEADER*/
 
-/*MASTHEAD*/
 #masthead {
 	background: url('../resources/masthead_shadow.png') top center no-repeat;
 	padding-top: 22px;
 }
 
-#masthead .container {}
-
-/*NEEDS TO BE REMOVED*/
+/*TODO IMG GALLERY NEEDED (REMOVE THIS IMG)*/
 #masthead .moduletable_img {position:relative; left:-10px; margin-top:5px;}
 
-/*END MASTHEAD*/
-
 #wrapper {
+	background: url('../resources/wrapper_shadow.png') bottom center no-repeat;
+	padding-bottom: 40px;	
+}
+
+.ie7 #wrapper { padding-bottom: 40px; }
+
+#wrapper > div {
+	position:relative;
 	width: 920px;
 	padding: 79px 10px 10px;
-	margin: 10px auto;
-	background-color: #fff;
+	margin: 10px auto 0px ;
+	background-color: #ffffff;
 	border: 1px solid #d7d7d7;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-	behavior: url('../resources/PIE.htc');
+	box-shadow: 0 2px 3px -2px rgba(93, 93, 93, 0.9);
+	behavior: url('templates/RunStrong/resources/PIE.htc');
 }
 
 #content {
@@ -58,13 +65,14 @@ body {
 	border-left: 1px solid #dddddd;
 }
 
-/*BOTTOM*/
+/*POST CONTAINER FOR SUPPORTERS*/
+#k2Container .itemContainer {
+	margin: 20px 0;
+}
 
 #bottom {
 	background: url('../resources/bottom_shadowtop.png') top center no-repeat;
 }
-
-/*END BOTTOM*/
 
 #footer {
 	border-bottom: 1px solid #e5e5e5;
@@ -72,7 +80,7 @@ body {
 
 #copyright {
 	padding-top:10px;
-	min-height: 90px;
 	font-size: 10px;
+	height: 90px;
 	background: #f2f2f3 url('../resources/copyright_shadow.png') top center no-repeat;
 }

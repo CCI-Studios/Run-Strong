@@ -61,52 +61,57 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 	<div id="header">
 		<div class="container">
 			<jdoc:include type="modules" name="header" style="xhtml" />
-			<!-- THIS IMG NEEDS TO BE REMOVED -->
+			<!-- TODO COUNTDOWN NEEDED (REMOVE IMG) -->
 			<img src="templates/RunStrong/resources/countdown.png" width="196" height="40" alt="Countdown">
 		</div>
 	</div>
 	
-	<div id="masthead">
-		<div class="container">
-			<jdoc:include type="modules" name="masthead" style="xhtml" />
-			<div class="clear"></div>
+	<div id="bg">
+		<div id="masthead">
+			<div class="container">
+				<jdoc:include type="modules" name="masthead" style="xhtml" />
+				<div class="clear"></div>
+			</div>
 		</div>
-	</div>
 	
-	<?php if ($page_sfx !== '_hidden'): ?>
-	<div id="wrapper">
-		<div id="content" class="left">
-			<jdoc:include type="component" />
+		<?php if ($page_sfx !== '_hidden'): ?>
+		<div id="wrapper">
+			<div>
+				<div id="content" class="left">
+					<jdoc:include type="component" />
+				</div>
+				<div id="sidebar" class="left">
+					<jdoc:include type="modules" name="sidebar" style="xhtml2" />
+				</div>
+				<div class="clear"></div>
+			</div>
 		</div>
-		<div id="sidebar" class="left">
-			<jdoc:include type="modules" name="sidebar" style="xhtml2" />
+		<?php endif; ?>
+	
+		<?php if ($this->countModules('bottom')): ?>
+		<div id="bottom">
+			<div class="container">
+				<jdoc:include type="modules" name="bottom" style="xhtml2" />
+				<div class="clear"></div>
+			</div>
 		</div>
+		<?php endif; ?>
+	
 		<div class="clear"></div>
-	</div>
-	<?php endif; ?>
 	
-	<?php if ($this->countModules('bottom')): ?>
-	<div id="bottom">
-		<div class="container">
-			<jdoc:include type="modules" name="bottom" style="xhtml2" />
-			<div class="clear"></div>
+		<div id="footer">
+			<div class="container">
+				<jdoc:include type="modules" name="footer" style="xhtml" />
+			</div>
 		</div>
-	</div>
-	<?php endif; ?>
-	
-	<div class="clear"></div>
-	
-	<div id="footer">
-		<div class="container">
-			<jdoc:include type="modules" name="footer" style="xhtml" />
-		</div>
-	</div>
-	
+	<div>
 	<div id="copyright">
-		<div class="container">
-			<span class="copy_style left">&copy; <?php echo date('Y') ?> 
-				<span class="logo_style">run strong<span class="pinkdot">.</span></span> All Rights Reserved.</span>
-			<span class="copy_style right"><a href="http://ccistudios.com">Site by CCI Studios</a></span>
+		<div>
+			<div class="container">
+				<span class="copy_style left">&copy; <?php echo date('Y') ?> 
+					<span class="logo_style">run strong<span class="pinkdot">.</span></span> All Rights Reserved.</span>
+				<span class="copy_style right"><a href="http://ccistudios.com">Site by CCI Studios</a></span>
+			</div>
 		</div>
 	</div>
 

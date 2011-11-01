@@ -8,33 +8,18 @@
    No text-shadow: twitter.com/miketaylr/status/12228805301
    Also: hot pink! */
 /* TODO Update selection BG color */
-::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
-::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+::-moz-selection{ background: #ec008c; color:#fff; text-shadow: none; }
+::selection { background:#ec008c; color:#fff; text-shadow: none; }
 
 /*FOR K2 MODULES*/
 .linebreak { 
 	border-top: 2px solid #e7e7e7;
 	padding: 10px 0 0;
-	margin-top: 10px;
 }
 
 .linebreak:first-child { 
 	border-top: 0;
 	margin-top: 0;
-}
-
-.blacktitle {
-	font-size: 14px;
-	font-weight: bold;
-	color: #000;
-	text-decoration:none;
-	margin-bottom:5px;
-	font-family:segoebold;
-}
-
-.blacktitle a, a:active, a:visited, a:hover {
-	color: #000;
-	text-decoration: none;
 }
 
 /*END OF K2 MODULES*/
@@ -56,10 +41,8 @@
 }
 
 .logo_style {
-	font-family: segoebold;
+	font-family: segoe;
 	color: #000;
 }
 
-.pinkdot {
-	color: #ec008c;
-}
+.pinkdot { color: #ec008c; }
