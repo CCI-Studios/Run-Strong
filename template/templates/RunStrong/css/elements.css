@@ -5,7 +5,6 @@ body, select, input, textarea {
 	font-size: 12px;
 	color: #989898;
 	line-height: 18px;
-	letter-spacing: .03em ;
 }
 
 @font-face {
@@ -47,6 +46,13 @@ h1 span,
 }
 
 h4 { font-size: 14px; }
+h4 a, 
+h4 a:active, 
+h4 a:visited, 
+h4 a:hover {
+	color: #000;
+	text-decoration: none;
+}
 
 a, a:visited {
 	color: #EC008C;
@@ -54,15 +60,8 @@ a, a:visited {
 }
 
 a:hover, a:active {
-	color: #EC008C;
 	text-decoration: underline;
 }
-
-.moduletable_hmenu a { text-decoration: none; }
-
-#masthead a { color: #343434; }
-#masthead a:hover { color: #ec008c; }
-#masthead p { margin: 0px; }
 
 #sidebar h3, 
 #bottom h3 {
@@ -76,18 +75,6 @@ a:hover, a:active {
 	color: #000;
 	text-decoration:none;
 	margin: 0 0 5px 0;
-}
-
-#bottom .feed h4 a, 
-#bottom .feed h4 a:active, 
-#bottom .feed h4 a:visited, 
-#bottom .feed h4 a:hover,
-#K2 h4 a, 
-#K2 h4 a:active, 
-#K2 h4 a:visited, 
-#K2 h4 a:hover {
-	color: #000;
-	text-decoration: none;
 }
 
 .k2ReadMore a:visited {
