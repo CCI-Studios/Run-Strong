@@ -7,12 +7,6 @@ body, select, input, textarea {
 	line-height: 18px;
 	letter-spacing: .03em ;
 }
-@font-face {
- 	font-family: 'segoe';
-	src: url('../resources/segoeuib.eot');
-	font-weight: bold;
-	font-style: normal;
-}
 
 @font-face {
  	font-family: 'segoe';
@@ -29,9 +23,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: segoe, helvetica, arial, sans-serif;
 }
 
-h1 span, h3 span { font-size: 17px; }
+h1 {
+	margin: -79px 0 20px 0;
+	padding: 20px 0;
+	border-bottom: 1px solid #e1e1e1;
+	width: 900px;
+}
 
-h4 { font-size: 14px; }
+h1, h3 { font-size: 17px; }
 
 h1 span,
 .moduletable h3 span {
@@ -40,35 +39,26 @@ h1 span,
 }
 
 .ie8 h1 span,
-.ie8 .moduletable h3 span {
-	background: url('../resources/pinkdot.png') no-repeat right 12px;
-	padding: 0 7px 0 0;
-}
-
+.ie8 .moduletable h3 span,
 .ie7 h1 span,
 .ie7 .moduletable h3 span, {
 	background: url('../resources/pinkdot.png') no-repeat right 12px;
 	padding: 0 7px 0 0;
 }
 
-h1 {
-	margin: -79px 0 20px 0;
-	padding: 20px 0;
-	border-bottom: 1px solid #e1e1e1;
-	width: 900px;
-}
+h4 { font-size: 14px; }
 
-a {
+a, a:visited {
 	color: #EC008C;
 	text-decoration: none;
 }
 
-a:hover, a:active, a:visited {
+a:hover, a:active {
 	color: #EC008C;
 	text-decoration: underline;
 }
 
-.moduletable_hmenu a { text-decoration: none;}
+.moduletable_hmenu a { text-decoration: none; }
 
 #masthead a { color: #343434; }
 #masthead a:hover { color: #ec008c; }
