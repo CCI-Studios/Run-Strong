@@ -1,12 +1,8 @@
 /* layout */
 
-body {
-	background: #f2f2f3;
-}
+body { background: #f2f2f3; }
 
-#bg {
-	background: white url('../resources/bg.png') top center no-repeat;
-}
+#bg { background: white url('../resources/bg.png') top center no-repeat; }
 
 .container {
 	width: 940px;
@@ -27,8 +23,6 @@ body {
 	padding-bottom: 40px;	
 }
 
-.ie7 #wrapper { padding-bottom: 40px; }
-
 #wrapper > div {
 	position:relative; /* ie */
 	width: 900px;
@@ -40,6 +34,8 @@ body {
 	box-shadow: 0 2px 3px -2px rgba(93, 93, 93, 0.9);
 	behavior: url('templates/RunStrong/resources/PIE.htc');
 }
+
+.ie7 #wrapper { padding-bottom: 40px; }
 
 #content {
 	width: 590px;
@@ -53,17 +49,11 @@ body {
 }
 
 /* POST CONTAINER FOR SUPPORTERS */
-#k2Container .itemContainer {
-	margin: 20px 0;
-}
+#k2Container .itemContainer { margin: 20px 0; }
 
-#bottom {
-	background: url('../resources/bottom_shadowtop.png') top center no-repeat;
-}
+#bottom { background: url('../resources/bottom_shadowtop.png') top center no-repeat; }
 
-#footer {
-	border-bottom: 1px solid #e5e5e5;
-}
+#footer { border-bottom: 1px solid #e5e5e5; }
 
 #copyright {
 	padding-top:10px;

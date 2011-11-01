@@ -10,7 +10,6 @@
 // no direct access
 defined('_JEXEC') or die('Restricted access');
 ?>
-<div id="K2">
 <div id="k2ModuleBox<?php echo $module->id; ?>" class="k2ItemsBlock<?php if($params->get('moduleclass_sfx')) echo ' '.$params->get('moduleclass_sfx'); ?>">
 
 	<?php if($params->get('itemPreText')): ?>
@@ -96,5 +95,4 @@ defined('_JEXEC') or die('Restricted access');
 	<a class="moduleCustomLink" href="<?php echo $params->get('itemCustomLinkURL'); ?>" title="<?php echo K2HelperUtilities::cleanHtml($itemCustomLinkTitle); ?>"><?php echo $itemCustomLinkTitle; ?></a>
 	<?php endif; ?>
 
-</div>
 </div>

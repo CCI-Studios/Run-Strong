@@ -5,7 +5,6 @@
 .moduletable_hmenu > ul {
 	margin: 0;
 	padding: 0;
-	
 	text-align: center;
 }
 
@@ -48,10 +47,9 @@
 
 /*Sidebar*/
 
-#sidebar { line-height: 15px; }
-
 #sidebar .moduletable {
 	clear: both;
+	line-height: 15px;
 	padding: 20px 0 20px 0;
 }
 
@@ -67,8 +65,6 @@
 	margin: 0 10px 0 0;
 }
 
-#sidebar .moduleCustomLink { float:right; }
-
 #bottom .moduleCustomLink,
 #sidebar .moduleCustomLink {
 	color: #ec008c;
@@ -78,6 +74,8 @@
 	font-weight: bold;
 }
 
+#sidebar .moduleCustomLink { float:right; }
+
 #bottom .moduleCustomLink:hover,
 #sidebar .moduleCustomLink:hover {
 	text-decoration: underline;
@@ -85,24 +83,11 @@
 
 /*Bottom*/
 
-#bottom ul li { line-height: 14px; }
-
-#bottom img {
-	float: left;
-	border: 2px solid #e7e7e7;
-	padding: 2px;
-	margin: 0 10px 0 0;
-}
-
-#bottom p {
-	margin: 0;
-	clear: both;
-}
-
 #bottom .moduletable {
 	position:relative;
 	float: left;
 	width: 240px;
+	line-height: 14px;
 	min-height: 300px;
 	background-color: #fff;
 	border: 1px solid #d7d7d7;
@@ -113,6 +98,8 @@
 	behavior: url('templates/RunStrong/resources/PIE.htc');
 }
 
+#bottom .moduletable:first-child { margin-left: 0; }
+
 /*FIXES FOR IE CSS PIE*/
 /*FIXME - DOES NOT CENTER PROPERLY FOR IE7 & IE8, NEEDS TO BE 30px TO THE LEFT */
 .ie8 #bottom .moduletable,
@@ -122,8 +109,6 @@
 
 /*FIXME - DON'T TAKE THIS OFF. FIRST TABLE WILL BE OFF ALIGNMENT IF NOT APPLIED. IE7 BUG?*/
 .ie7 #bottom .moduletable:first-child { margin-left:30px; }
-
-#bottom .moduletable:first-child { margin-left: 0; }
 
 #bottom .moduleCustomLink {
 	display: block;
@@ -145,6 +130,18 @@
 	box-shadow: 0 2px 2px #888;
 	behavior: url(templates/RunStrong/resources/PIE.htc);
 	z-index: 2;
+}
+
+#bottom img {
+	float: left;
+	border: 2px solid #e7e7e7;
+	padding: 2px;
+	margin: 0 10px 0 0;
+}
+
+#bottom p {
+	margin: 0;
+	clear: both;
 }
 
 /*START OF 'BLOG' MODULE*/

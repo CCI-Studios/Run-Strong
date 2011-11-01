@@ -59,9 +59,7 @@ a, a:visited {
 	text-decoration: none;
 }
 
-a:hover, a:active {
-	text-decoration: underline;
-}
+a:hover, a:active { text-decoration: underline; }
 
 #sidebar h3, 
 #bottom h3 {
@@ -70,16 +68,14 @@ a:hover, a:active {
 	margin: 0;
 }
 
-#bottom .feed h4,
-#K2 h4 {
+.k2ItemsBlock h4,
+.feed h4 {
 	color: #000;
 	text-decoration:none;
 	margin: 0 0 5px 0;
 }
 
-.k2ReadMore a:visited {
-	color: #EC008C ;
-}
+.k2ReadMore a:visited { color: #EC008C; }
 
 #footer a, 
 #footer a:active, 
