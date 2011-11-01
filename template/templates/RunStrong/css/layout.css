@@ -22,9 +22,6 @@ body {
 	padding-top: 22px;
 }
 
-/*TODO IMG GALLERY NEEDED (REMOVE THIS IMG)*/
-#masthead .moduletable_img {position:relative; left:-10px; margin-top:5px;}
-
 #wrapper {
 	background: url('../resources/wrapper_shadow.png') bottom center no-repeat;
 	padding-bottom: 40px;	
