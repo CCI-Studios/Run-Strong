@@ -39,8 +39,6 @@ body {
 	margin: 10px auto 0px ;
 	background-color: #ffffff;
 	border: 1px solid #d7d7d7;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
     border-radius: 6px;
 	box-shadow: 0 2px 3px -2px rgba(93, 93, 93, 0.9);
 	behavior: url('templates/RunStrong/resources/PIE.htc');
