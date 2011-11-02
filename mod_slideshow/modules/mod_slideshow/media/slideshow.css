@@ -27,6 +27,7 @@
 	display: inline-block;
 	*display: inline-block;
 	*zoom: 1;
+	margin-top: 25px;
 }
 
 .slideshow .selector {
