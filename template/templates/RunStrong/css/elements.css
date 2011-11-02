@@ -68,6 +68,10 @@ a:hover, a:active { text-decoration: underline; }
 	margin: 0;
 }
 
+.slideshow h3 {
+	margin: 0px 0px 30px;
+}
+
 .k2ItemsBlock h4,
 .feed h4 {
 	color: #000;
