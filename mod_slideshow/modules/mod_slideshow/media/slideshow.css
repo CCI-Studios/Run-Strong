@@ -6,8 +6,9 @@
 
 .slideshow > div {
 	position: relative;
-	padding: 50px 60px;
-	border: 1px solid #d7d7d7;
+	padding: 51px 61px;
+	background: #959595;
+	background-image: -webkit-linear-gradient(bottom, #959595, #d7d7d7);
 	
 	border-radius: 10px;
 }
