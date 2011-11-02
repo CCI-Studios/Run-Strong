@@ -54,6 +54,10 @@ var Slideshow = new Class({
 	},
 	
 	selectImage: function(index) {
+		if (this.running) {
+			clearTimeout(this.timer);
+		}
+		
 		this.image2.setStyles({
 			background: 'transparent url(' + this.images[index].src + ') 1px 1px no-repeat',
 			opacity: 0
@@ -70,7 +74,6 @@ var Slideshow = new Class({
 				if (this.running) {
 					this.timer = this.next.delay(this.delay, this);
 				} else {
-					console.log('not running');
 				}
 			}.bind(this)
 		});
