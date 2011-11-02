@@ -12,7 +12,7 @@
 		<a class="moduleCustomLink prettylink" href="<?= $link ?>"><?= $link_text ?></a>
 
 		<div class="images"><? foreach ($images as $image): ?>
-			<img src="<?= $image ?>" />
+			<img src="<?= $image_path .'/'. $image ?>" />
 		<? endforeach; ?></div>
 	</div>
 	

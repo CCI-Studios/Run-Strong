@@ -12,7 +12,19 @@
 	<files>
 		<filename module="mod_slideshow">mod_slideshow.php</filename>
 	</files>
-	<params>
-		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
-	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="title" type="text" default="" label="Title text" description="Title of module (visible on site frontend)." />
+				<field name="image_path" type="folderlist" directory="images/galleries" hide_default="true" default="" label="Image Path" description="Location of images." />
+				<field name="description" type="textarea" default="" label="Description" description="What you want it to say." />
+				<field name="link" type="text" default="" label="Link" description="" />
+				<field name="link_text" type="text" default="" label="Link Text" description="What you want the link to say" />
+				<field name="width" type="hidden" default="940" />
+				<field name="height" type="hidden" default="350" />
+				
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+			</fieldset>
+		</fields>
+	</config>
 </install>
