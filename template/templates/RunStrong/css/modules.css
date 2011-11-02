@@ -74,7 +74,10 @@
 	font-weight: bold;
 }
 
-#sidebar .moduleCustomLink { float:right; }
+#sidebar .moduleCustomLink { 
+	float:right;
+	margin-top: 6px;
+}
 
 #bottom .moduleCustomLink:hover,
 #sidebar .moduleCustomLink:hover {
