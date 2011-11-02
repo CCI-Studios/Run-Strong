@@ -14,11 +14,11 @@
 		<div class="images"><? foreach ($images as $image): ?>
 			<img src="<?= $image ?>" />
 		<? endforeach; ?></div>
+	</div>
 	
-		<div class="selector">
-			<ul><? foreach ($images as $image): ?>
-				<li></li>
-			<? endforeach; ?></ul>
-		</div>
+	<div class="selector">
+		<ul><? foreach ($images as $image): ?>
+			<li></li>
+		<? endforeach; ?></ul>
 	</div>
 </div></div>
