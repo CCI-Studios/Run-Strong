@@ -74,7 +74,6 @@
 .slideshow .selector li {
 	display: inline-block;
 	*display: inline;
-	*zoom: 0;
 	width: 20px;
 	height: 20px;
 	margin: 0 3px;
@@ -87,7 +86,6 @@
 }
 
 .slideshow .selector li.current {
-	background-image: -webkit-linear-gradient(bottom right, #8e0054, #e60088 50%, #f13fa8 85%, #e8008a);
 	background: url('pinkDot.png') no-repeat center top;
 }
 
