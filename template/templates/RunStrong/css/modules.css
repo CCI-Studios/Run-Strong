@@ -121,7 +121,7 @@
 	position: relative;
 	line-height: 34px;
 	border: 1px solid #ccc;
-	background: url('../resources/button.png') center repeat-x;
+	background: url('../images/button.png') center repeat-x;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), color-stop(45%, #fcfcfc), to(#fff));
 	background-image: -webkit-linear-gradient(bottom, #ccc, #fcfcfc 45%, #fff);
 	background-image: -moz-linear-gradient(bottom, #ccc, #fcfcfc 45%, #fff);
