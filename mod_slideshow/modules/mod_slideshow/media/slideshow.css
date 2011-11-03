@@ -71,10 +71,14 @@
 	border-radius: 10px;
 	box-shadow: inset 1px 2px 1px 0 #333;
 	cursor: pointer;
+.ie7 .slideshow .selector li,
+.ie8 .slideshow .selector li {
+	background: url('pinkDot_holder.png') no-repeat center top;
 }
 
 .slideshow .selector li.current {
 	background-image: -webkit-linear-gradient(bottom right, #8e0054, #e60088 50%, #f13fa8 85%, #e8008a);
+	background: url('pinkDot.png') no-repeat center top;
 }
 
 .slideshow .images { display: none; }
