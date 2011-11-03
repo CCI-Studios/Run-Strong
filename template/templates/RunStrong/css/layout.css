@@ -18,6 +18,10 @@ body { background: #f2f2f3; }
 	padding-top: 22px;
 }
 
+.custom_logotype {
+	padding-left: 10px;
+}
+
 #wrapper {
 	background: url('../resources/wrapper_shadow.png') bottom center no-repeat;
 	padding-bottom: 40px;	
