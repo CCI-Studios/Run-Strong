@@ -16,6 +16,7 @@
 	padding-top:20px;
 }
 	border-radius: 10px;
+	behavior: url(templates/RunStrong/resources/PIE.htc);
 }
 
 .slideshow h3 {
