@@ -73,6 +73,7 @@
 .slideshow .selector li {
 	display: inline-block;
 	*display: inline;
+	*zoom: 1;
 	width: 20px;
 	height: 20px;
 	margin: 0 3px;
@@ -80,6 +81,9 @@
 	box-shadow: inset 1px 2px 1px 0 #333;
 	behavior: url(templates/RunStrong/resources/PIE.htc);
 	cursor: pointer;
+	background: white;
+}
+
 .ie7 .slideshow .selector li,
 .ie8 .slideshow .selector li {
 	background: url('pinkDot_holder.png') no-repeat center top;
@@ -100,6 +104,7 @@
 	left: 0;
 	z-index: 1;
 	border-radius: 10px;
+	behavior: url(templates/RunStrong/resources/PIE.htc);
 }
 
 .slideshow .bg-image2 { opacity: 0; }
