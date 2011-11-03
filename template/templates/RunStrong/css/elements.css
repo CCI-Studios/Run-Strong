@@ -33,6 +33,12 @@ h1, h3 { font-size: 19px; }
 
 h1 span,
 .moduletable h3 span {
+	background: url('../resources/pinkdot.png') no-repeat right 15.5px;
+	padding: 0 7px 0 0;
+}
+
+.ie8 h1 span,
+.ie8 .moduletable h3 span {
 	background: url('../resources/pinkdot.png') no-repeat right 13px;
 	padding: 0 7px 0 0;
 }
