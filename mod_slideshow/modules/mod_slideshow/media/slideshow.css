@@ -10,6 +10,10 @@
 	background: #959595;
 	background-image: -webkit-linear-gradient(bottom, #959595, #d7d7d7);
 	
+.ie7 .slideshow,
+.ie8 .slideshow {
+	padding-top:20px;
+}
 	border-radius: 10px;
 }
 
