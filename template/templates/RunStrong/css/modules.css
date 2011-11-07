@@ -40,8 +40,10 @@
 
 /* /hmenu */
 #masthead .moduletable_hmenu {
+	font-family: segoe, helvetica, arial, sans-serif;
 	float:right;
 	margin: 20px 0 10px 0;
+	padding-right: 10px;
 }
 
 
@@ -122,7 +124,7 @@
 	left: 89px;
 	line-height: 34px;
 	border: 1px solid #ccc;
-	background: url('../resources/button.png') center repeat-x;
+	background: url('../images/button.png') center repeat-x;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), color-stop(45%, #fcfcfc), to(#fff));
 	background-image: -webkit-linear-gradient(bottom, #ccc, #fcfcfc 45%, #fff);
 	background-image: -moz-linear-gradient(bottom, #ccc, #fcfcfc 45%, #fff);

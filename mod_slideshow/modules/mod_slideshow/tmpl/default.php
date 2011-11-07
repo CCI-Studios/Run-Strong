@@ -1,4 +1,4 @@
-<div class="slideshow"><div style="width: <?= $width-2-120?>px; height: <?= $height-2-100?>px;">
+<div class="slideshow"><div><div style="width: <?= $width-2-120?>px; height: <?= $height-2-100?>px;">
 	<div class="bg-image1"></div>
 	<div class="bg-image2"></div>
 	
@@ -21,4 +21,4 @@
 			<li></li>
 		<? endforeach; ?></ul>
 	</div>
-</div></div>
+</div></div></div>

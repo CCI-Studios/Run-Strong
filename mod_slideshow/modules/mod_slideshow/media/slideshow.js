@@ -54,8 +54,12 @@ var Slideshow = new Class({
 	},
 	
 	selectImage: function(index) {
+		if (this.running) {
+			clearTimeout(this.timer);
+		}
+		
 		this.image2.setStyles({
-			background: 'transparent url(' + this.images[index].src + ') 1px 1px no-repeat',
+			background: 'transparent url(' + this.images[index].src + ') center no-repeat',
 			opacity: 0
 		});
 		
@@ -70,7 +74,6 @@ var Slideshow = new Class({
 				if (this.running) {
 					this.timer = this.next.delay(this.delay, this);
 				} else {
-					console.log('not running');
 				}
 			}.bind(this)
 		});
@@ -82,7 +85,7 @@ var Slideshow = new Class({
 	},
 	
 	setImage: function(index) {
-		this.image1.setStyle('background', 'transparent url(' + this.images[index].src + ') 1px 1px no-repeat');
+		this.image1.setStyle('background', 'transparent url(' + this.images[index].src + ') center no-repeat');
 		this.image2.setStyle('opacity', 0);
 		this.selectors[this.index].addClass('current');
 	}
