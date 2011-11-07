@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Countdown</name>
+	<author>Jonathan Bennett</author>
+	<creationDate>Nov 7, 2011</creationDate>
+	<copyright>Copyright (C) 2011 CCI Studios. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>jbennett@ccistudios.com</authorEmail>
+	<authorUrl>www.ccistudios.com</authorUrl>
+	<version>1.5.0</version>
+	<description></description>
+	<files>
+		<filename module="mod_countdown">mod_countdown.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			<field name="date" type="calendar" default="" format="%Y/%m/%d" label="Date" description="Date you want to count down to." />
+				
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+			</fieldset>
+		</fields>
+	</config>
+</install>

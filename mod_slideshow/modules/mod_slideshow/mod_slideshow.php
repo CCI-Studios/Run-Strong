@@ -5,6 +5,7 @@ $image_path = 'images/galleries/'. $params->get('image_path');
 $images = JFolder::files($image_path);
 $title = $params->get('title');
 $description = $params->get('description');
+$description = str_replace("\n", "<br/>", $description);
 $link = $params->get('link');
 $link_text = $params->get('link_text');
 $width = $params->get('width');

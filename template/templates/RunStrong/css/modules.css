@@ -68,7 +68,8 @@
 	margin: 0 10px 0 0;
 }
 
-.moduleCustomLink {
+#bottom .moduleCustomLink,
+#sidebar .moduleCustomLink {
 	color: #ec008c;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -81,7 +82,8 @@
 	margin-top: 6px;
 }
 
-.moduleCustomLink:hover {
+#bottom .moduleCustomLink:hover,
+#sidebar .moduleCustomLink:hover {
 	text-decoration: underline;
 }
 
@@ -114,11 +116,12 @@
 /*FIXME - DON'T TAKE THIS OFF. FIRST TABLE WILL BE OFF ALIGNMENT IF NOT APPLIED. IE7 BUG?*/
 .ie7 #bottom .moduletable:first-child { margin-left:30px; }
 
-#bottom .moduleCustomLink,
-.prettylink {
+#bottom .moduleCustomLink {
 	display: block;
 	padding: 0 20px;
-	position: relative;
+	position: absolute;
+	bottom: -17px;
+	left: 89px;
 	line-height: 34px;
 	border: 1px solid #ccc;
 	background: url('../images/button.png') center repeat-x;
@@ -133,12 +136,6 @@
 	box-shadow: 0 2px 2px #888;
 	behavior: url(templates/RunStrong/resources/PIE.htc);
 	z-index: 2;
-}
-
-#bottom .moduleCustomLink {
-	position: absolute;
-	bottom: -17px;
-	left: 89px;
 }
 
 #bottom img {
