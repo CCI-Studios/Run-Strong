@@ -69,7 +69,8 @@
 }
 
 #bottom .moduleCustomLink,
-#sidebar .moduleCustomLink {
+#sidebar .moduleCustomLink,
+.slideshow .moduleCustomLink {
 	color: #ec008c;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -83,7 +84,8 @@
 }
 
 #bottom .moduleCustomLink:hover,
-#sidebar .moduleCustomLink:hover {
+#sidebar .moduleCustomLink:hover,
+.slideshow .moduleCustomLink:hover {
 	text-decoration: underline;
 }
 
@@ -116,12 +118,10 @@
 /*FIXME - DON'T TAKE THIS OFF. FIRST TABLE WILL BE OFF ALIGNMENT IF NOT APPLIED. IE7 BUG?*/
 .ie7 #bottom .moduletable:first-child { margin-left:30px; }
 
-#bottom .moduleCustomLink {
+#bottom .moduleCustomLink,
+.slideshow .moduleCustomLink {
 	display: block;
 	padding: 0 20px;
-	position: absolute;
-	bottom: -17px;
-	left: 89px;
 	line-height: 34px;
 	border: 1px solid #ccc;
 	background: url('../images/button.png') center repeat-x;
@@ -136,6 +136,16 @@
 	box-shadow: 0 2px 2px #888;
 	behavior: url(templates/RunStrong/resources/PIE.htc);
 	z-index: 2;
+}
+
+#bottom .moduleCustomLink {
+	position: absolute;
+	bottom: -17px;
+	left: 89px;
+}
+
+.slideshow .moduleCustomLink {
+	width: 47px;
 }
 
 #bottom img {
