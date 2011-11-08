@@ -1,9 +1,11 @@
-.countdown > div {
-	float: left;
-	margin: 0 0 0 10px;
-	width: 40px;
+.countdown {
+	margin: 4px 0;
 }
 
+.countdown > div {
+	float: left;
+	width: 60px;
+}
 
 .countdown > div div:first-child {
 	color: #ec008c;
