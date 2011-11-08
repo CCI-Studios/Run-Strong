@@ -123,7 +123,7 @@ if ($feed != false)
 			?>
 			</ul>
 			
-			<a class="moduleCustomLink" title="View All" href="http://google.com"> <!-- TODO Update to Proper Address-->
+			<a class="moduleCustomLink" title="View All" href="http://strong-run.blogspot.com/"> <!-- TODO Update to Proper Address-->
 				View All
 			</a>
 
