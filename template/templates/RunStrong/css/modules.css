@@ -60,12 +60,15 @@
 	padding:0 0 20px 0;
 }
 
-#sidebar img,
-#content img {
+#sidebar img {
 	float: left;
 	border: 2px solid #e7e7e7;
 	padding: 2px;
 	margin: 0 10px 0 0;
+}
+
+#content img {
+	padding: 0px 0px 10px 0;
 }
 
 #bottom .moduleCustomLink,
