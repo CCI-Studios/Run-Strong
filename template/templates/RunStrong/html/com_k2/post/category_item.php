@@ -122,6 +122,10 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
 	  <div class="catItemIntroText">
 	  	<?php echo $this->item->introtext; ?>
 	  </div>
+		<? else: ?>
+		<div class="catItemIntroText">
+	  	<?php print_r($this->item->fulltext); ?>
+	  </div>
 	  <?php endif; ?>
 
 		<div class="clr"></div>
