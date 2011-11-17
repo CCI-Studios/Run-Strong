@@ -29,15 +29,15 @@ defined('_JEXEC') or die('Restricted access');
       <?php echo $item->event->K2BeforeDisplayContent; ?>
 
 			<?php if ($params->get('itemImage')): ?>
-			<div class="left">
-				<a class="moduleItemImage" href="<?php echo $item->link; ?>" title="<?php echo JText::_('K2_CONTINUE_READING'); ?> &quot;<?php echo K2HelperUtilities::cleanHtml($item->title); ?>&quot;">
+			<div class="image">
+				<div class="moduleItemImage" href="<?php echo $item->link; ?>" title="<?php echo JText::_('K2_CONTINUE_READING'); ?> &quot;<?php echo K2HelperUtilities::cleanHtml($item->title); ?>&quot;">
 	      	<img src="<?php echo $item->image; ?>" alt="<?php echo K2HelperUtilities::cleanHtml($item->title); ?>"/>
-	      </a>
+	      </div>
 			</div>
 			<?php endif; ?>
 			
 			<?php if ($params->get('itemIntroText')): ?>
-			<div>
+			<div class="description">
 				<?php if($params->get('itemTitle')): ?>
 	      <h4><?php echo $item->title; ?></h4>
 	      <?php endif; ?>
