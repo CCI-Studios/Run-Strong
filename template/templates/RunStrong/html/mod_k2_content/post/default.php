@@ -39,7 +39,7 @@ defined('_JEXEC') or die('Restricted access');
 			<?php if ($params->get('itemIntroText')): ?>
 			<div>
 				<?php if($params->get('itemTitle')): ?>
-	      <h4><a class="moduleItemTitle" href="<?php echo $item->link; ?>"><?php echo $item->title; ?></a></h4>
+	      <h4><?php echo $item->title; ?></h4>
 	      <?php endif; ?>
 
 	      <?php echo $item->event->AfterDisplayTitle; ?>
