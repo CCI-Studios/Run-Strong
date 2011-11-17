@@ -88,6 +88,19 @@
 
 /*Bottom*/
 
+.k2ItemsBlock .image {
+	float: left;
+}
+
+.k2ItemsBlock .description {
+	float: left;
+	width: 157px;
+}
+
+.k2ItemsBlock.supWide .description { width: 167px; }
+.k2ItemsBlock.vawNarrow .description { width: 187px; }
+.k2ItemsBlock.vawWide .description { width: 197px; }
+
 #bottom .moduletable {
 	position:relative;
 	float: left;
