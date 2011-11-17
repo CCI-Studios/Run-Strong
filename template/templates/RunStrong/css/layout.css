@@ -42,11 +42,13 @@ body { background: #f2f2f3; }
 .ie7 #wrapper { padding-bottom: 40px; }
 
 #content {
+	float: left;
 	width: 590px;
 	padding:0 30px 0 0;
 }
 
 #sidebar {
+	float: left;
 	width: 250px;
 	padding: 0 0 0 29px;
 	border-left: 1px solid #dddddd;

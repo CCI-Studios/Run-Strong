@@ -59,61 +59,46 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
 <body class="<?= $menu ?>">
 
-	<div id="header">
-		<div class="container">
-			<jdoc:include type="modules" name="header" style="xhtml" />
-			<div class="clear"></div>
-		</div>
-	</div>
+	<div id="header"><div class="container">
+		<jdoc:include type="modules" name="header" style="xhtml" />
+		<div class="clear"></div>
+	</div></div>
 	
 	<div id="bg">
-		<div id="masthead">
-			<div class="container">
-				<jdoc:include type="modules" name="masthead" style="xhtml" />
-				<div class="clear"></div>
-			</div>
-		</div>
+		<div id="masthead"><div class="container">
+			<jdoc:include type="modules" name="masthead" style="xhtml" />
+			<div class="clear"></div>
+		</div></div>
 	
 		<?php if ($page_sfx !== '_hidden'): ?>
-		<div id="wrapper">
-			<div class="container">
-				<div id="content" class="left">
-					<jdoc:include type="component" />
-				</div>
-				<div id="sidebar" class="left">
-					<jdoc:include type="modules" name="sidebar" style="xhtml2" />
-				</div>
-				<div class="clear"></div>
+		<div id="wrapper"><div class="container">
+			<div id="content">
+				<jdoc:include type="component" />
 			</div>
-		</div>
+			<div id="sidebar">
+				<jdoc:include type="modules" name="sidebar" style="xhtml2" />
+			</div>
+			<div class="clear"></div>
+		</div></div>
 		<?php endif; ?>
 	
 		<?php if ($this->countModules('bottom')): ?>
-		<div id="bottom">
-			<div class="container">
-				<jdoc:include type="modules" name="bottom" style="xhtml2" />
-				<div class="clear"></div>
-			</div>
-		</div>
+		<div id="bottom"><div class="container">
+			<jdoc:include type="modules" name="bottom" style="xhtml2" />
+			<div class="clear"></div>
+		</div></div>
 		<?php endif; ?>
 	
-		<div class="clear"></div>
-	
-		<div id="footer">
-			<div class="container">
-				<jdoc:include type="modules" name="footer" style="xhtml" />
-			</div>
-		</div>
-	<div>
-	<div id="copyright">
-		<div>
-			<div class="container">
-				<span class="left">&copy; <?php echo date('Y') ?> 
-					<span class="black">run strong</span><span class="pinkdot">.</span> All Rights Reserved.</span>
-				<span class="right"><a href="http://ccistudios.com">Site by CCI Studios</a></span>
-			</div>
-		</div>
+		<div id="footer"><div class="container">
+			<jdoc:include type="modules" name="footer" style="xhtml" />
+		</div></div>
 	</div>
+		
+	<div id="copyright"><div><div class="container">
+		<span class="left">&copy; <?php echo date('Y') ?> 
+			<span class="black">run strong</span><span class="pinkdot">.</span> All Rights Reserved.</span>
+		<span class="right"><a href="http://ccistudios.com">Site by CCI Studios</a></span>
+	</div></div></div>
 
 	<div class="hidden">
 		<jdoc:include type="modules" name="hidden" style="raw" />
