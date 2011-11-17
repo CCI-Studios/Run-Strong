@@ -30,9 +30,7 @@ defined('_JEXEC') or die('Restricted access');
 
 			<?php if ($params->get('itemImage')): ?>
 			<div class="image">
-				<div class="moduleItemImage" href="<?php echo $item->link; ?>" title="<?php echo JText::_('K2_CONTINUE_READING'); ?> &quot;<?php echo K2HelperUtilities::cleanHtml($item->title); ?>&quot;">
-	      	<img src="<?php echo $item->image; ?>" alt="<?php echo K2HelperUtilities::cleanHtml($item->title); ?>"/>
-	      </div>
+	      		<img src="<?php echo $item->image; ?>" alt="<?php echo K2HelperUtilities::cleanHtml($item->title); ?>"/>
 			</div>
 			<?php endif; ?>
 			
