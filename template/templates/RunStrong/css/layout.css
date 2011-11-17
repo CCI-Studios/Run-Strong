@@ -58,6 +58,7 @@ body { background: #f2f2f3; }
 #k2Container .itemContainer { margin: 20px 0; }
 
 #bottom { background: url('../images/bottom_shadowtop.png') top center no-repeat; }
+#bottom .container > div { margin-left: -47px; zoom: 1; }
 
 #footer { border-bottom: 1px solid #e5e5e5; }
 

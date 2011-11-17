@@ -113,20 +113,8 @@
 	margin: 50px 0 0 47px;
 	padding: 20px 20px 30px;
 	box-shadow: 0 6px 10px 0px rgba(208, 208, 208,0.7);
-	behavior: url('templates/RunStrong/resources/PIE.htc');
+/*	behavior: url('templates/RunStrong/resources/PIE.htc');*/
 }
-
-#bottom .moduletable:first-child { margin-left: 0; }
-
-/*FIXES FOR IE CSS PIE*/
-/*FIXME - DOES NOT CENTER PROPERLY FOR IE7 & IE8, NEEDS TO BE 30px TO THE LEFT */
-.ie8 #bottom .moduletable,
-.ie7 #bottom .moduletable { margin: 50px 0 0 30px; }
-
-.ie8 #bottom .moduletable:first-child {	margin-left: 0 ; }
-
-/*FIXME - DON'T TAKE THIS OFF. FIRST TABLE WILL BE OFF ALIGNMENT IF NOT APPLIED. IE7 BUG?*/
-.ie7 #bottom .moduletable:first-child { margin-left:30px; }
 
 #bottom .moduleCustomLink,
 .slideshow .moduleCustomLink {
@@ -144,7 +132,7 @@
 	-pie-background: linear-gradient(bottom, #ccc, #fcfcfc 45%, #fff);
 	border-radius: 18px;
 	box-shadow: 0 2px 2px #888;
-	behavior: url(templates/RunStrong/resources/PIE.htc);
+/*	behavior: url(templates/RunStrong/resources/PIE.htc);*/
 	z-index: 2;
 }
 
