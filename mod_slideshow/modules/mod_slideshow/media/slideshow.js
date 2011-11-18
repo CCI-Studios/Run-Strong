@@ -17,6 +17,9 @@ var Slideshow = new Class({
 		this.container = container
 		
 		this.images = this.container.getElements('.images img');
+		this.images.each(function (image) {
+			new Asset.image(image.src);
+		});
 		this.selectors = this.container.getElements('.selector > div > div > div');
 		this.index = 0;
 		
