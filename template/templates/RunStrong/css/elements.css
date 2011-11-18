@@ -8,11 +8,19 @@ body, select, input, textarea {
 }
 
 @font-face {
- 	font-family: 'segoe';
-	src: url('../resources/segeouib.eot');
-	src: local('ò∫'), url('/templates/RunStrong/resources/segoeuib.ttf') format('truetype');
+	font-family: 'segoe';
+	src: url('../resources/segoeuib.eot?') format('eot'), url('../resources/segoeuib.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
+}
+
+@font-face {
+    font-family: 'segoe';
+    src: url('../resources/segoeuib.eot');
+    src: url('../resources/segoeuib.eot?#iefix') format('embedded-opentype'),
+         url('../resources/segoeuib.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
