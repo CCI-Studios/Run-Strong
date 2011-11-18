@@ -10,11 +10,14 @@
 	padding-top:20px;
 }
 
-.slideshow > div { /*FIXME Background Image is working but will not display properly*/
+.slideshow > div {
+	width: 938px;
 	padding: 1px;
 	border-radius: 10px;
 	background: url('slideshow_bg.jpg') center top no-repeat;
 	behavior: url(templates/RunStrong/resources/PIE.htc);
+	zoom: 1;
+	position: relative;
 }
 .slideshow > div > div {
 	position: relative;
@@ -65,7 +68,7 @@
 	height: 21px;
 	
 	background: url(./selector.png) right -37px no-repeat;
-	padding: 8px 17px 8px 0;
+	padding: 7px 17px 9px 0;
 }
 
 .slideshow .selector > div > div > div {
