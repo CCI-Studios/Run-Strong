@@ -17,7 +17,7 @@ var Slideshow = new Class({
 		this.container = container
 		
 		this.images = this.container.getElements('.images img');
-		this.selectors = this.container.getElements('.selector li');
+		this.selectors = this.container.getElements('.selector > div > div > div');
 		this.index = 0;
 		
 		this.image1 = this.container.getElement('.bg-image1');

@@ -17,8 +17,8 @@
 	</div>
 	
 	<div class="selector">
-		<ul><? foreach ($images as $image): ?>
-			<li></li>
-		<? endforeach; ?></ul>
+		<div><div><? foreach ($images as $image): ?>
+			<div></div>
+		<? endforeach; ?></div></div>
 	</div>
 </div></div></div>

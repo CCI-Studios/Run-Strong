@@ -32,11 +32,11 @@
 	width: 50%;
 }
 
-.slideshow .prettylink {
+.slideshow .moduleCustomLink {
 	display: inline-block;
 	*display: inline-block;
 	*zoom: 1;
-	margin-top: 25px;
+	margin: 25px 0 0 0;
 }
 
 .slideshow .selector {
@@ -49,49 +49,39 @@
 	text-align: center;
 }
 
-.slideshow .selector ul {
+.slideshow .selector > div {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
-	margin: 0;
-	padding: 0;
-	height: 20px;
-	padding: 5px 7px;
-	border-radius: 17px;
 	
-	border: 1px solid #ccc;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#fff));
-	background-image: -webkit-linear-gradient(bottom, #cfcfcf, #e6e6e6 2px, #f8f8f8 17px, #fff);
-	background-image: -moz-linear-gradient(bottom, #cfcfcf, #e6e6e6 2px, #f8f8f8 17px, #fff);
-	background-image: -o-linear-gradient(bottom, #cfcfcf, #e6e6e6 2px, #f8f8f8 17px, #fff);
-	background-image: -ms-linear-gradient(bottom, #cfcfcf, #e6e6e6 2px, #f8f8f8 17px, #fff);
-	background-image: linear-gradient(bottom, #cfcfcf, #e6e6e6 2px, #f8f8f8 17px, #fff);
-	-pie-background: linear-gradient(bottom, #cfcfcf, #e6e6e6 2px, #f8f8f8 17px, #fff);
-	box-shadow: 0 2px 2px #888;
-	behavior: url(templates/RunStrong/resources/PIE.htc);
+	background: url(./selector.png) 0 0 no-repeat;
+	padding-left: 17px;
 }
 
-.slideshow .selector li {
+.slideshow .selector > div > div {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
-	width: 20px;
-	height: 20px;
+	height: 21px;
+	
+	background: url(./selector.png) right -37px no-repeat;
+	padding: 8px 17px 8px 0;
+}
+
+.slideshow .selector > div > div > div {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 21px;
+	height: 21px;
 	margin: 0 3px;
-	border-radius: 10px;
-	box-shadow: inset 1px 2px 1px 0 #333;
-	behavior: url(templates/RunStrong/resources/PIE.htc);
+	
+	background: url(./pinkDot_holder.png) center no-repeat;
 	cursor: pointer;
-	background: white;
 }
 
-.ie7 .slideshow .selector li,
-.ie8 .slideshow .selector li {
-	background: url('pinkDot_holder.png') no-repeat center top;
-}
-
-.slideshow .selector li.current {
-	background: url('pinkDot.png') no-repeat center top;
+.slideshow .selector div.current {
+	background-image: url(./pinkDot.png);
 }
 
 .slideshow .images { display: none; }
