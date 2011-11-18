@@ -137,6 +137,11 @@
 	padding: 1px 20px 3px 3px;
 }
 
+#bottom .moduleCustomLink span:hover,
+.slideshow .moduleCustomLink span:hover {
+	text-decoration: underline;
+}
+
 #bottom .moduleCustomLink {
 	position: absolute;
 	bottom: -17px;
