@@ -123,9 +123,9 @@ if ($feed != false)
 			?>
 			</ul>
 			
-			<a class="moduleCustomLink" title="View All" target="_blank" href="http://strong-run.blogspot.com/">
+			<a class="moduleCustomLink" title="View All" target="_blank" href="http://strong-run.blogspot.com/"><span>
 				View All
-			</a>
+			</span></a>
 
 	</div>
 <?php } ?>

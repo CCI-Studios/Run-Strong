@@ -9,7 +9,7 @@
 			<?= $description ?>
 		</div>
 
-		<a class="moduleCustomLink prettylink" href="<?= $link ?>"><?= $link_text ?></a>
+		<a class="moduleCustomLink prettylink" href="<?= $link ?>"><span><?= $link_text ?></span></a>
 
 		<div class="images"><? foreach ($images as $image): ?>
 			<img src="<?= $image_path .'/'. $image ?>" />

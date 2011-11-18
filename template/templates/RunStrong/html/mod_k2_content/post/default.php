@@ -90,7 +90,7 @@ defined('_JEXEC') or die('Restricted access');
   <?php endif; ?>
 
 	<?php if($params->get('itemCustomLink')): ?>
-	<a class="moduleCustomLink" href="<?php echo $params->get('itemCustomLinkURL'); ?>" title="<?php echo K2HelperUtilities::cleanHtml($itemCustomLinkTitle); ?>"><?php echo $itemCustomLinkTitle; ?></a>
+	<a class="moduleCustomLink" href="<?php echo $params->get('itemCustomLinkURL'); ?>" title="<?php echo K2HelperUtilities::cleanHtml($itemCustomLinkTitle); ?>"><span><?php echo $itemCustomLinkTitle; ?></span></a>
 	<?php endif; ?>
 
 </div>
