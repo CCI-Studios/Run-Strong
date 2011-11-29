@@ -1,9 +1,8 @@
 /* elements */
 body, select, input, textarea {
-	color: #444; /* off black */
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 12px;
-	color: #989898;
+	color: #7b7b7b;
 	line-height: 18px;
 }
 

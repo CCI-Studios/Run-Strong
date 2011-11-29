@@ -67,7 +67,6 @@ defined('_JEXEC') or die('Restricted access');
 			<!-- K2 Plugins: K2CategoryDisplay -->
 			<?php echo $this->category->event->K2CategoryDisplay; ?>
 
-			<div class="clr"></div>
 		</div>
 		<?php endif; ?>
 

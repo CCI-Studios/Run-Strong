@@ -78,6 +78,7 @@
 
 #sidebar .moduleCustomLink { 
 	float:right;
+	margin-top:5px;
 }
 
 #bottom .moduleCustomLink:hover,
@@ -135,6 +136,11 @@
 	
 	background: url(../images/selector.png) right -37px no-repeat;
 	padding: 1px 20px 3px 3px;
+}
+
+#bottom .moduleCustomLink span:hover,
+.slideshow .moduleCustomLink span:hover {
+	text-decoration: underline;
 }
 
 #bottom .moduleCustomLink {
