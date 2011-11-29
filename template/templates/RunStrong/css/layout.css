@@ -2,7 +2,7 @@
 
 body { background: #f2f2f3; }
 
-#bg { background: white url('../images/bg.png') top center no-repeat; }
+#bg { background: white url('../images/bg.jpg') top center no-repeat; }
 
 .container {
 	width: 940px;
