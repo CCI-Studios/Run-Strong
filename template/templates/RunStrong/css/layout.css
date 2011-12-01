@@ -5,10 +5,22 @@ body { background: #f2f2f3; }
 #bg { background: white url('../images/bg.jpg') top center no-repeat; }
 
 .container {
-	width: 940px;
-	padding: 0 10px;
+	width: 93.945720250521921%; /*900/958*/
+	padding: 0 1.04384133%;
 	margin: 0 auto;
 }
+
+.mainContainer {
+	width:93.945720250521921%;
+	margin: 0 auto
+}
+
+@media screen and (min-width: 1024px) {
+	.mainContainer {
+		width:960px;
+	}
+}
+
 /*HEADER*/
 #header { background-color: #000; }
 #header .container { padding: 5px 10px; }
@@ -23,14 +35,15 @@ body { background: #f2f2f3; }
 }
 
 #wrapper {
-	background: url('../images/wrapper_shadow.png') bottom center no-repeat;
-	padding-bottom: 40px;	
+	background: url('../images/wrapper_shadow.png') no-repeat 0 98.2% ;
+	padding-bottom: 40px;
+	width: 99.791666% ; /*958/960*/	
 }
 
 #wrapper > div {
 	position: relative; /* ie CSS3 */
-	width: 900px;
-	padding: 79px 20px 10px;
+	width: 93.945720250521921%; /*900/958*/
+	padding: 79px 2.12765% 10px;
 	margin: 10px auto 0px;
 	background-color: #ffffff;
 	border: 1px solid #d7d7d7;
@@ -43,14 +56,14 @@ body { background: #f2f2f3; }
 
 #content {
 	float: left;
-	width: 590px;
-	padding:0 30px 0 0;
+	width: 65.5555555555555%;
+	padding:0 3.33333333333% 0 0;
 }
 
 #sidebar {
 	float: left;
-	width: 250px;
-	padding: 0 0 0 29px;
+	width: 27.777777777777%;
+	padding: 0 0 0 3.222222222%;
 	border-left: 1px solid #dddddd;
 }
 

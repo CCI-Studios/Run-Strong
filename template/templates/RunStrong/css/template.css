@@ -5,5 +5,9 @@
 
 @import url("layout.css");
 @import url("modules.css");
+@import url("ipadPort.css");
+@import url("ipadLand.css");
+@import url("mobileLand.css");
+@import url("mobilePort.css");
 
 @import url("styles.css");

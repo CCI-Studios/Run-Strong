@@ -1,0 +1,43 @@
+@media screen and (max-width: 1024px) { /*WHEN AN IPAD IS IN PORTRAIT*/
+	
+	.mainContainer {
+		width: 100%;
+	}
+	
+	#wrapper {
+		background-size: 100%
+	}
+	
+	#content {
+		padding: 0;
+		width: 100%;
+		border-bottom: 1px solid #cccccc;
+		margin-bottom: 10px;
+	}
+	
+	#sidebar {
+		width: 100%;
+		float: none;
+		border-left: none;
+		padding: 0px; 
+	}
+	
+	#sidebar .moduletable {
+		width: 45%; /*324/720*/
+		clear: none;
+		float: left;
+		padding: 0 0 0 10%; /*72/720*/
+	}
+	
+	#sidebar .moduletable:first-child {
+		padding-left: 0px;
+	}
+	
+	.k2ItemsBlock.supWide .description {
+		width: 73.470588%;
+	}
+	
+	.k2ItemsBlock.vawWide .description {
+		width: 82.5%;
+	}
+}

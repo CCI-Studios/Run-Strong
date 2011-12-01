@@ -43,9 +43,9 @@ $analytics = "UA-27372299-1";
 
 	<!-- load css -->
 	<?php if ($testing): ?>
-		<link rel="stylesheet" href="/templates/<?= $this->template ?>/css/template.css">
+		<link rel="stylesheet" media="screen" href="/templates/<?= $this->template ?>/css/template.css">
 	<?php else: ?>
-		<link rel="stylesheet" href="/templates/<?= $this->template ?>/css/template.min.css">
+		<link rel="stylesheet" media="screen" href="/templates/<?= $this->template ?>/css/template.min.css">
 	<?php endif; ?>
 
 	<!-- load modernizer, all other at bottom -->
@@ -59,38 +59,40 @@ $analytics = "UA-27372299-1";
 
 <body class="<?= $menu ?>">
 
-	<div id="header"><div class="container">
+	<div id="header"><div class="mainContainer"><div class="container">
 		<jdoc:include type="modules" name="header" style="xhtml" />
-		<div class="clear"></div>
+		<div class="clear"></div></div>
 	</div></div>
 	
 	<div id="bg">
-		<div id="masthead"><div class="container">
-			<jdoc:include type="modules" name="masthead" style="xhtml" />
-			<div class="clear"></div>
-		</div></div>
+		<div class="mainContainer">
+			<!-- <div id="masthead"><div class="container">
+				<jdoc:include type="modules" name="masthead" style="xhtml" />
+				<div class="clear"></div>
+			</div></div> -->
 	
-		<?php if ($page_sfx !== '_hidden'): ?>
-		<div id="wrapper"><div class="container">
-			<div id="content">
-				<jdoc:include type="component" />
-			</div>
-			<div id="sidebar">
-				<jdoc:include type="modules" name="sidebar" style="xhtml2" />
-			</div>
-		</div></div>
-		<?php endif; ?>
+			<?php if ($page_sfx !== '_hidden'): ?>
+			<div id="wrapper"><div class="container">
+				<div id="content">
+					<jdoc:include type="component" />
+				</div>
+				<div id="sidebar">
+					<jdoc:include type="modules" name="sidebar" style="xhtml2" />
+				</div>
+			</div></div>
+			<?php endif; ?>
 	
-		<?php if ($this->countModules('bottom')): ?>
-		<div id="bottom"><div class="container"><div>
-			<jdoc:include type="modules" name="bottom" style="xhtml2" />
-			<div class="clear"></div>
-		</div></div></div>
-		<?php endif; ?>
+			<?php if ($this->countModules('bottom')): ?>
+			<div id="bottom"><div class="container"><div>
+				<jdoc:include type="modules" name="bottom" style="xhtml2" />
+				<div class="clear"></div>
+			</div></div></div>
+			<?php endif; ?>
 	
-		<div id="footer"><div class="container">
-			<jdoc:include type="modules" name="footer" style="xhtml" />
-		</div></div>
+			<div id="footer"><div class="container">
+				<jdoc:include type="modules" name="footer" style="xhtml" />
+			</div></div>
+		</div>
 	</div>
 		
 	<div id="copyright"><div><div class="container">

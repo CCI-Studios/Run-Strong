@@ -1,0 +1,10 @@
+@media screen and (max-width: 480px) {
+	
+	.k2ItemsBlock.supWide .description {
+		width: 57%;
+	}
+	
+	.k2ItemsBlock.vawWide .description {
+		width: 64%;
+	}
+}

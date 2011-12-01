@@ -1,7 +1,7 @@
 /* elements */
 body, select, input, textarea {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 12px;
+	font-size: .75em;
 	color: #7b7b7b;
 	line-height: 18px;
 }
