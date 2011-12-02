@@ -1,4 +1,22 @@
 @media screen and (max-width: 768px) {
+	
+	#content {
+		padding: 0;
+		width: 100%;
+		border-bottom: 1px solid #cccccc;
+		margin-bottom: 10px;
+	}
+	
+	#sidebar {
+		width: 100%;
+		float: none;
+		border-left: none;
+		padding: 0px; 
+	}
+	
+	#sidebar .moduletable:first-child {
+		padding-left: 0px;
+	}
 
 	#sidebar .moduletable {
 		width:100%;
