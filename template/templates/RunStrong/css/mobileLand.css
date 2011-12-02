@@ -28,11 +28,12 @@
 		padding-top: 0;
 	}
 	
-	.k2ItemsBlock.supWide .description {
-		width: 81%;
+	.k2ItemsBlock .image {
+		width: 11.407239%
 	}
 	
-	.k2ItemsBlock.vawWide .description {
-		width: 87%;
+	.k2ItemsBlock.supWide .description {
+		width: 87.39%;
 	}
+
 }
