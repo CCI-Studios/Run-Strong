@@ -1,7 +1,15 @@
-@media screen and (max-width: 1024px) { /*WHEN AN IPAD IS IN PORTRAIT*/
+@media screen and (max-width: 1024px) { /*between 768px and 1024px*/
 	
 	#content {
 		width: 65%;
+	}
+	
+	#sidebar img {
+		margin-right: 4.347826%;
+	}
+	
+	.k2ItemsBlock.supWide .description {
+		width: 66.391304%;
 	}
 
 }

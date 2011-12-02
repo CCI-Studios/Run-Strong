@@ -63,7 +63,8 @@
 	float: left;
 	border: 2px solid #e7e7e7;
 	padding: 2px;
-	margin: 0 10px 0 0;
+	margin: 0 11.66666666666% 0 0;
+	max-width: 100%;
 }
 
 #bottom .moduleCustomLink,
@@ -91,16 +92,21 @@
 
 .k2ItemsBlock .image {
 	float: left;
+	width: 27.6%;
 }
 
 .k2ItemsBlock .description { /* supNarrow */
-	float: left;
+	float: right;
 	width: 157px;
 }
 
-.k2ItemsBlock.supWide .description { width: 167px; }
+.k2ItemsBlock.supWide .description { width: 66.8%; }
 .k2ItemsBlock.vawNarrow .description { width: 187px; }
-.k2ItemsBlock.vawWide .description { width: 197px; }
+.k2ItemsBlock.vawWide .description { width: 78.8%; }
+
+.moduletable .vawWide .image {
+	width: 14%;
+}
 
 #bottom .moduletable {
 	position:relative;
