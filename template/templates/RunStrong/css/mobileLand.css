@@ -24,16 +24,12 @@
 		padding: 30px 0 0 0;
 	}
 	
-	#sidebar .moduletable:first-child {
-		padding-top: 0;
-	}
+	#sidebar .moduletable:first-child { padding-top: 0; }
 	
-	.k2ItemsBlock .image {
-		width: 11.407239%
-	}
+	.k2ItemsBlock .image { width: 11.407239%; }
+	.moduletable .vawWide .image { width: 6% }
 	
-	.k2ItemsBlock.supWide .description {
-		width: 87.39%;
-	}
+	.k2ItemsBlock.supWide .description { width: 87.39%;}
+	.k2ItemsBlock.vawWide .description { width: 91.8%}
 
 }
