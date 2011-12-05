@@ -66,10 +66,10 @@ $analytics = "UA-27372299-1";
 	
 	<div id="bg">
 		<div class="mainContainer">
-			<!-- <div id="masthead"><div class="container">
+			<div id="masthead"><div class="container">
 				<jdoc:include type="modules" name="masthead" style="xhtml" />
 				<div class="clear"></div>
-			</div></div> -->
+			</div></div>
 	
 			<?php if ($page_sfx !== '_hidden'): ?>
 			<div id="wrapper"><div class="container">
