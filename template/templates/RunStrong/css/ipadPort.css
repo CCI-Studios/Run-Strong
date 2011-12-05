@@ -34,5 +34,10 @@
 	#bottom .moduletable {
 		width: 91.55%;
 	}
+	
+	#bottom .k2ItemsBlock .description {
+		float: none;
+		width: 100%;
+	}
 
 }
