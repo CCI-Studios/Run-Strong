@@ -12,4 +12,14 @@
 		width: 66.391304%;
 	}
 	
+	#bottom .k2ItemsBlock .image,
+	.moduletable .vawNarrow .image {
+		max-width: 100%;
+	}
+	
+	#bottom .k2ItemsBlock .description,
+	.k2ItemsBlock.vawNarrow .description {
+		float: none;
+		width: 100%;
+	}
 }
