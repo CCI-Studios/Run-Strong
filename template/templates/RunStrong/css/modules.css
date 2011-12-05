@@ -104,9 +104,8 @@
 .k2ItemsBlock.vawNarrow .description { width: 187px; }
 .k2ItemsBlock.vawWide .description { width: 78.8%; }
 
-.moduletable .vawWide .image {
-	max-width: 14%;
-}
+.moduletable .vawWide .image { max-width: 14%; }
+.moduletable .vawNarrow .image {max-width: 18%; }
 
 #bottom .moduletable {
 	position:relative;
