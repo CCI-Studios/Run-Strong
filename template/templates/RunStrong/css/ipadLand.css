@@ -1,3 +1,15 @@
-@media screen and (min-width: 768px), screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	#content {
+		width: 65%;
+	}
+	
+	#sidebar img {
+		margin-right: 4.347826%;
+	}
+	
+	.k2ItemsBlock.supWide .description {
+		width: 66.391304%;
+	}
 	
 }

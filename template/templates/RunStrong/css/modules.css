@@ -92,7 +92,7 @@
 
 .k2ItemsBlock .image {
 	float: left;
-	width: 27.6%;
+	max-width: 27.6%;
 }
 
 .k2ItemsBlock .description { /* supNarrow */
@@ -105,7 +105,7 @@
 .k2ItemsBlock.vawWide .description { width: 78.8%; }
 
 .moduletable .vawWide .image {
-	width: 14%;
+	max-width: 14%;
 }
 
 #bottom .moduletable {
