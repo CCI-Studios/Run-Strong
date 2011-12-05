@@ -30,5 +30,9 @@
 	
 	.k2ItemsBlock.supWide .description { width: 87.39%;}
 	.k2ItemsBlock.vawWide .description { width: 90.8%; float: none;}
+	
+	#bottom .moduletable {
+		width: 91.55%;
+	}
 
 }
