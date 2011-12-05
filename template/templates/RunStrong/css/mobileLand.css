@@ -31,5 +31,7 @@
 		float: none;
 		text-align: center;
 	}
+	
+	#masthead .moduletable_hmenu { float: none; }
 
 }
