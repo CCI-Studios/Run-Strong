@@ -25,7 +25,11 @@
 	}
 	
 	.k2ItemsBlock.supWide .description,
-	.k2ItemsBlock.vawWide .description { width: 100%; float: none;}
+	.k2ItemsBlock.vawWide .description { 
+		width: 100%; 
+		float: none;
+	}
+	
 	.custom_logotype {
 		padding: 0;
 		float: none;
