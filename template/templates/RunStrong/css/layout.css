@@ -32,6 +32,7 @@ body { background: #f2f2f3; }
 
 .custom_logotype {
 	padding-left: 10px;
+	float: left;
 }
 
 #wrapper {
