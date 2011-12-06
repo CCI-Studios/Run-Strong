@@ -1,3 +1,16 @@
 @media screen and (min-width: 1024px) {
 	
+	#content {
+		float: left;
+		width: 65.55555555555555555%	;
+		padding:0 3.33333333333333333% 0 0;
+	}
+	
+	#sidebar {
+		float: left;
+		width: 27.7777777777777777%;
+		padding: 0 0 0 3.2222222222222222222%;
+		border-left: 1px solid #dddddd;
+	}
+	
 }
