@@ -12,7 +12,7 @@
 		padding: 0 0 30px 0;
 	}
 	
-	.image {margin-right: 1.490312965722802%;}
+	.image {margin-right: 1.490312965722802%; float: left;}
 	.image img {-moz-box-sizing: padding-box; -moz-box-sizing: border-box; }
 	
 	.description { float: right; }
@@ -20,9 +20,30 @@
 	.supWide .image { width: 10.879284649776453%; }
 	.supWide .description { width: 87.630402384500745%; }
 	
-	.vawWide .image { width: 6.408345752608048%; }
-	.vawWide .description {width: 92.101341281669151%;}
+	.vawWide .image { margin: 0; }
+	.vawWide .description {margin-left: 50px; float: none;}
 	
 	#footer { display: none; }
+	
+	#bottom .moduletable {
+		width: 93.25%;
+		position:relative;
+		float: left;
+		line-height: 14px;
+		min-height: 300px;
+		background-color: #fff;
+		border: 1px solid #d7d7d7;
+	    border-radius: 6px;
+		margin: 50px 0 0 3.769787234042553%;
+		padding: 20px 2.077659574468085% 10px;
+		box-shadow: 0 6px 10px 0px rgba(208, 208, 208,0.7);
+		behavior: url('templates/RunStrong/resources/PIE.htc');
+	}
+	
+	.supNarrow .image { width: 10.879284649776453%; }
+	.supNarrow .description { width: 87.630402384500745%; }
+	
+	.vawNarrow .image { margin: 0; }
+	.vawNarrow .description {margin-left: 50px; float: none;}
 
 }

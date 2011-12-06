@@ -1,8 +1,6 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	
-	.responsiveWrapper {
-		width: 93.25%; margin: 0 auto;
-	}
+	.responsiveWrapper { width: 93.25%; margin: 0 auto; }
 	
 	#masthead .moduletable_hmenu { float: right; }
 	
@@ -18,14 +16,36 @@
 		padding: 0 0 0 3.1222222222222222222%;
 	}
 	
-	.image {margin-right: 4%;}
+	.image { margin-right: 4%; float: left; }
 	.image img {-moz-box-sizing: padding-box; -moz-box-sizing: border-box; }
 	
-	.description { float: right; }
-	
 	.supWide .image { width: 29.2%; }
-	.supWide .description { width: 66.8%; }
+	.supWide .description { width: 66.8%; float: right; }
 	
-	.vawWide .image { width: 17.2%; }
-	.vawWide .description {width: 78.8%;}
+	.vawWide .image { margin: 0;}
+	.vawWide .description {margin-left: 50px; }
+	
+	#bottom .moduletable {
+		width: 25.13191489%;
+		position:relative;
+		float: left;
+		line-height: 14px;
+		min-height: 300px;
+		background-color: #fff;
+		border: 1px solid #d7d7d7;
+	    border-radius: 6px;
+		margin: 50px 0 0 3.769787234042553%;
+		padding: 20px 2.077659574468085% 30px;
+		box-shadow: 0 6px 10px 0px rgba(208, 208, 208,0.7);
+		behavior: url('templates/RunStrong/resources/PIE.htc');
+	}
+	
+
+	.supNarrow .image { width: 29.2%; }
+	.supNarrow .description { width: 66.783333333333%; float: right;}
+	
+	.vawNarrow .image { width: 17.91666666666666666%; }
+	.vawNarrow .description {margin-left: 53px; float: none;}
+
+	
 }
