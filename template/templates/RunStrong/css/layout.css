@@ -41,19 +41,6 @@ body { background: #f2f2f3; }
 	
 }
 
-#content {
-	float: left;
-	width: 590px;
-	padding:0 30px 0 0;
-}
-
-#sidebar {
-	float: left;
-	width: 250px;
-	padding: 0 0 0 29px;
-	border-left: 1px solid #dddddd;
-}
-
 /* POST CONTAINER FOR SUPPORTERS */
 #k2Container .itemContainer { margin: 20px 0; }
 
