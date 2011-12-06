@@ -88,26 +88,6 @@
 
 /*Bottom*/
 
-.k2ItemsBlock .image {
-	float: left;
-}
-
-.k2ItemsBlock.vawNarrow .description { width: 187px; }
-
-#bottom .moduletable {
-	position:relative;
-	float: left;
-	width: 240px;
-	line-height: 14px;
-	min-height: 300px;
-	background-color: #fff;
-	border: 1px solid #d7d7d7;
-    border-radius: 6px;
-	margin: 50px 0 0 47px;
-	padding: 20px 20px 30px;
-	box-shadow: 0 6px 10px 0px rgba(208, 208, 208,0.7);
-	behavior: url('templates/RunStrong/resources/PIE.htc');
-}
 
 #bottom .moduleCustomLink,
 .slideshow .moduleCustomLink {
