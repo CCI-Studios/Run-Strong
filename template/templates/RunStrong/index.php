@@ -64,7 +64,7 @@ $analytics = "UA-27372299-1";
 		<div class="clear"></div>
 	</div></div>
 	
-	<div id="bg">
+	<div id="bg"><div class="responsiveWrapper">
 		<div id="masthead"><div class="container">
 			<jdoc:include type="modules" name="masthead" style="xhtml" />
 			<div class="clear"></div>
@@ -91,7 +91,7 @@ $analytics = "UA-27372299-1";
 		<div id="footer"><div class="container">
 			<jdoc:include type="modules" name="footer" style="xhtml" />
 		</div></div>
-	</div>
+	</div></div>
 		
 	<div id="copyright"><div><div class="container">
 		<span class="left">&copy; <?php echo date('Y') ?> 
