@@ -59,10 +59,10 @@ $analytics = "UA-27372299-1";
 
 <body class="<?= $menu ?>">
 
-	<div id="header"><div class="container">
+	<div id="header"><div class="responsiveWrapper"><div class="container">
 		<jdoc:include type="modules" name="header" style="xhtml" />
 		<div class="clear"></div>
-	</div></div>
+	</div></div></div>
 	
 	<div id="bg"><div class="responsiveWrapper">
 		<div id="masthead"><div class="container">
