@@ -93,11 +93,11 @@ $analytics = "UA-27372299-1";
 		</div></div>
 	</div></div>
 		
-	<div id="copyright"><div><div class="container">
+	<div id="copyright"><div><div class="responsiveWrapper"><div class="container">
 		<span class="left">&copy; <?php echo date('Y') ?> 
 			<span class="black">run strong</span><span class="pinkdot">.</span> All Rights Reserved.</span>
 		<span class="right"><a href="http://ccistudios.com">Site by CCI Studios</a></span>
-	</div></div></div>
+	</div></div></div></div>
 
 	<div class="hidden">
 		<jdoc:include type="modules" name="hidden" style="raw" />
