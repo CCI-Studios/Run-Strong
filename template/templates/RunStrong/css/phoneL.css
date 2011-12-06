@@ -22,5 +22,7 @@
 	
 	.vawWide .image { width: 6.408345752608048%; }
 	.vawWide .description {width: 92.101341281669151%;}
+	
+	#footer { display: none; }
 
 }
