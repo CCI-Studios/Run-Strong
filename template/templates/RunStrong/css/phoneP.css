@@ -17,10 +17,11 @@
 	
 	.description { float: right; }
 	
-	.supWide .image { width: 10.879284649776453%; }
-	.supWide .description { width: 87.630402384500745%; }
+	.supWide .image { width: 11.379284649776453%; }
+	.supWide .description { width: 87.130402384500745%; }
 	
-	.vawWide .image { width: 6.408345752608048%;}
-	.vawWide .description {width: 92.101341281669151%;}
+	
+	.vawWide .description {width: 87.0160427807487%;}
+	
 		
 }
