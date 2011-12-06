@@ -119,18 +119,11 @@
 #bottom .moduleCustomLink {
 	position: absolute;
 	bottom: -17px;
-	left: 89px;
+	left: 31.230769230769231%;
 }
 
 .slideshow .moduleCustomLink {
 	width: 47px;
-}
-
-#bottom img {
-	float: left;
-	border: 2px solid #e7e7e7;
-	padding: 2px;
-	margin: 0 10px 0 0;
 }
 
 #bottom p {
