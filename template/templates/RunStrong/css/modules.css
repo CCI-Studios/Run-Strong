@@ -41,7 +41,6 @@
 /* /hmenu */
 #masthead .moduletable_hmenu {
 	font-family: segoe, helvetica, arial, sans-serif;
-	float:right;
 	margin: 20px 0 10px 0;
 	padding-right: 10px;
 }
@@ -63,7 +62,7 @@
 	float: left;
 	border: 2px solid #e7e7e7;
 	padding: 2px;
-	margin: 0 10px 0 0;
+	max-width: 100%;
 }
 
 #bottom .moduleCustomLink,
@@ -93,14 +92,7 @@
 	float: left;
 }
 
-.k2ItemsBlock .description { /* supNarrow */
-	float: left;
-	width: 157px;
-}
-
-.k2ItemsBlock.supWide .description { width: 167px; }
 .k2ItemsBlock.vawNarrow .description { width: 187px; }
-.k2ItemsBlock.vawWide .description { width: 197px; }
 
 #bottom .moduletable {
 	position:relative;

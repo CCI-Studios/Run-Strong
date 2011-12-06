@@ -4,6 +4,8 @@
 		width: 93.25%; margin: 0 auto;
 	}
 	
+	#masthead .moduletable_hmenu { float: right; }
+	
 	#content {
 		width: 65.55555555555555555%;
 		padding:0 3.33333333333333333% 0 0;
@@ -13,6 +15,17 @@
 		float: left;
 		width: 27.7777777777777777%;
 		border-left: 1px solid #dddddd;
-		padding: 0 0 0 3.2222222222222222222%;
+		padding: 0 0 0 3.1222222222222222222%;
 	}
+	
+	.image {margin-right: 4%;}
+	.image img {-moz-box-sizing: padding-box; -moz-box-sizing: border-box; }
+	
+	.description { float: right; }
+	
+	.supWide .image { width: 29.2%; }
+	.supWide .description { width: 66.8%; }
+	
+	.vawWide .image { width: 17.2%; }
+	.vawWide .description {width: 78.8%;}
 }

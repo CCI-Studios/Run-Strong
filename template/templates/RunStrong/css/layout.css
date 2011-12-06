@@ -5,10 +5,11 @@ body { background: #f2f2f3; }
 #bg { background: white url('../images/bg.jpg') top center no-repeat; }
 
 .container {
-	width: 940px;
+	width: 100%;
 	padding: 0 10px;
 	margin: 0 auto;
 }
+
 /*HEADER*/
 #header { background-color: #000; }
 #header .container { padding: 5px 10px; }
@@ -16,10 +17,6 @@ body { background: #f2f2f3; }
 #masthead {
 	background: url('../images/masthead_shadow.png') top center no-repeat;
 	padding-top: 22px;
-}
-
-.custom_logotype {
-	padding-left: 10px;
 }
 
 #wrapper {
