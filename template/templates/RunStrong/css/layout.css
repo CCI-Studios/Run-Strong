@@ -20,7 +20,7 @@ body { background: #f2f2f3; }
 }
 
 #wrapper {
-	background: url('../images/wrapper_shadow.png') bottom center no-repeat;
+	background: url('../images/wrapper_shadow.png') center 98% no-repeat;
 	background-size: contain;
 	padding-bottom: 40px;
 	width: 100%;
