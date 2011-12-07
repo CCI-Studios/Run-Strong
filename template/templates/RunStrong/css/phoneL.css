@@ -55,6 +55,7 @@
 	#footer { display: none; }
 	
 	#bottom .container > div { margin-left: -4.5%; zoom: 1; }
+	#bottom .moduletable:first-child {margin-top: 30px;}
 	#bottom .moduletable {
 		width: 91.25%;
 		position:relative;
@@ -64,7 +65,7 @@
 		background-color: #fff;
 		border: 1px solid #d7d7d7;
 	    border-radius: 6px;
-		margin: 50px 0 0 3.769787234042553%;
+		margin: 10px 0 30px 3.769787234042553%;
 		padding: 20px 2.077659574468085% 10px;
 		box-shadow: 0 6px 10px 0px rgba(208, 208, 208,0.7);
 		behavior: url('templates/RunStrong/resources/PIE.htc');
