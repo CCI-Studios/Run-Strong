@@ -48,8 +48,8 @@
 		behavior: url('templates/RunStrong/resources/PIE.htc');
 	}
 	
-	.supNarrow .image { width: 10.879284649776453%; }
-	.supNarrow .description { width: 87.630402384500745%; }
+	.supNarrow .image { width: 43px; }
+	.supNarrow .description { margin-left: 14.171122994652406%; }
 	
 	.vawNarrow .image { margin: 0; }
 	.vawNarrow .description {margin-left: 50px; float: none;}
