@@ -1,5 +1,31 @@
 @media screen and (min-width: 480px) and (max-width: 767px) {
 	
+	.mastheadMobileBG {
+		background: url('../images/noisedBG.jpg') center top repeat-x;
+		margin: 0 -20px;
+	}
+	
+	.moduletable .mastheadMobile {
+			position: relative;
+			padding-bottom: 35px;
+			padding-top:30px;
+			color: black;
+			font-size: 12px;
+			text-align: left;
+			padding: 10px 8.382978723404% ;
+			margin-top: 30px;
+			text-align: center;
+	}
+
+	.moduletable .mastheadMobile > h1 {
+		border: none;
+		color: #EC008C;
+		font-size: 26px;
+		margin: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	
 	.responsiveWrapper {
 		width: 93.25%; margin: 0 auto;
 	}

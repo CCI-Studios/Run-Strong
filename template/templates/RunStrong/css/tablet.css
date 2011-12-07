@@ -1,5 +1,28 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	
+	.mastheadMobileBG {
+		background: url('../images/image1.jpg') center top no-repeat;
+	}
+
+	.moduletable .mastheadMobile {
+			position: relative;
+			padding-bottom: 35px;
+			padding-top:30px;
+			color: black;
+			font-size: 12px;
+			text-align: left;
+			padding: 10px 50% 10px 6.382978723404% ;
+			margin-top: 30px;
+	}
+
+	.moduletable .mastheadMobile > h1 {
+		border: none;
+		color: #EC008C;
+		font-size: 26px;
+		margin: 0px;
+		width: 100%;
+	}
+	
 	.responsiveWrapper { width: 93.25%; margin: 0 auto; }
 	
 	#masthead .moduletable_hmenu { float: right; }
