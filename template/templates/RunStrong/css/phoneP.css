@@ -27,7 +27,8 @@
 	.supWide .image { width: 43px; }
 	.supWide .description { margin-left: 14.171122994652406%; }
 	
-	.vawWide .description {width: 87.0160427807487%;}
+	.vawWide .image { margin: 0; }
+	.vawWide .description {margin-left: 50px; float: none;}
 	
 	#footer { display: none; }
 	
