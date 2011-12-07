@@ -13,7 +13,10 @@
 	}
 	
 	.image {margin-right: 1.490312965722802%; float: left;}
-	.image img {-moz-box-sizing: padding-box; -moz-box-sizing: border-box; }
+	.image img {-moz-box-sizing: padding-box; -moz-box-sizing: border-box;
+				-webkit-box-sizing: padding-box; -webkit-box-sizing: border-box;
+				box-sizing: padding-box; box-sizing: border-box;
+	}
 	
 	.description { float: right; }
 	

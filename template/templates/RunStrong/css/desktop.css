@@ -17,7 +17,10 @@
 	}
 	
 	.image { margin-right: 4%; float: left; }
-	.image img {-moz-box-sizing: padding-box; -moz-box-sizing: border-box; }
+	.image img {-moz-box-sizing: padding-box; -moz-box-sizing: border-box;
+				-webkit-box-sizing: padding-box; -webkit-box-sizing: border-box;
+				box-sizing: padding-box; box-sizing: border-box;
+	}
 	
 	.supWide .image { width: 29.2%; }
 	.supWide .description { width: 66.8%; float: right;}

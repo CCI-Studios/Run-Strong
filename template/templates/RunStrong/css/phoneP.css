@@ -19,6 +19,10 @@
 	
 	.supWide .image { width: 11.379284649776453%; }
 	.supWide .description { width: 87.130402384500745%; }
+	.image img {-moz-box-sizing: padding-box; -moz-box-sizing: border-box;
+				-webkit-box-sizing: padding-box; -webkit-box-sizing: border-box;
+				box-sizing: padding-box; box-sizing: border-box;
+	}
 	
 	
 	.vawWide .description {width: 87.0160427807487%;}
