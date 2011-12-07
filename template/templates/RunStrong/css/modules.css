@@ -41,7 +41,8 @@
 /* /hmenu */
 #masthead .moduletable_hmenu {
 	font-family: segoe, helvetica, arial, sans-serif;
-	margin: 0px 0 10px 0;
+	float:right;
+	margin: 20px 0 10px 0;
 	padding-right: 10px;
 }
 
@@ -58,12 +59,11 @@
 	padding:0 0 20px 0;
 }
 
-#sidebar img,
-#bottom img {
+#sidebar img {
 	float: left;
 	border: 2px solid #e7e7e7;
 	padding: 2px;
-	max-width: 100%;
+	margin: 0 10px 0 0;
 }
 
 #bottom .moduleCustomLink,
@@ -89,6 +89,33 @@
 
 /*Bottom*/
 
+.k2ItemsBlock .image {
+	float: left;
+}
+
+.k2ItemsBlock .description { /* supNarrow */
+	float: left;
+	width: 157px;
+}
+
+.k2ItemsBlock.supWide .description { width: 167px; }
+.k2ItemsBlock.vawNarrow .description { width: 187px; }
+.k2ItemsBlock.vawWide .description { width: 197px; }
+
+#bottom .moduletable {
+	position:relative;
+	float: left;
+	width: 240px;
+	line-height: 14px;
+	min-height: 300px;
+	background-color: #fff;
+	border: 1px solid #d7d7d7;
+    border-radius: 6px;
+	margin: 50px 0 0 47px;
+	padding: 20px 20px 30px;
+	box-shadow: 0 6px 10px 0px rgba(208, 208, 208,0.7);
+	behavior: url('templates/RunStrong/resources/PIE.htc');
+}
 
 #bottom .moduleCustomLink,
 .slideshow .moduleCustomLink {
@@ -119,11 +146,18 @@
 #bottom .moduleCustomLink {
 	position: absolute;
 	bottom: -17px;
-	left: 31.230769230769231%;
+	left: 89px;
 }
 
 .slideshow .moduleCustomLink {
 	width: 47px;
+}
+
+#bottom img {
+	float: left;
+	border: 2px solid #e7e7e7;
+	padding: 2px;
+	margin: 0 10px 0 0;
 }
 
 #bottom p {
