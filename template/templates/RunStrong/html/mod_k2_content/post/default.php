@@ -88,9 +88,11 @@ defined('_JEXEC') or die('Restricted access');
     <?php endforeach; ?>
   </ul>
   <?php endif; ?>
-
+	
 	<?php if($params->get('itemCustomLink')): ?>
-	<a class="moduleCustomLink" href="<?php echo $params->get('itemCustomLinkURL'); ?>" title="<?php echo K2HelperUtilities::cleanHtml($itemCustomLinkTitle); ?>"><span><?php echo $itemCustomLinkTitle; ?></span></a>
+	<div class="divCustomLink">
+		<a class="moduleCustomLink" href="<?php echo $params->get('itemCustomLinkURL'); ?>" title="<?php echo K2HelperUtilities::cleanHtml($itemCustomLinkTitle); ?>"><span><?php echo $itemCustomLinkTitle; ?></span></a>
+	</div>
 	<?php endif; ?>
 
 </div>
