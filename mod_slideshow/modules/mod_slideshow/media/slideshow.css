@@ -1,8 +1,9 @@
 .slideshow {
 	padding-bottom: 35px;
-	background: url(./shadow.png) bottom no-repeat;
+	background: url(./shadow.png) center 98% no-repeat;
+	background-size: contain;
 	font-size: 12px;
-	padding-top:10px;
+	padding-top:30px;
 }
 
 .ie7 .slideshow,
@@ -18,6 +19,7 @@
 	behavior: url(templates/RunStrong/resources/PIE.htc);
 	zoom: 1;
 	position: relative;
+	left: -10px;
 }
 .slideshow > div > div {
 	position: relative;
