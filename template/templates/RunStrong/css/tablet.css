@@ -23,7 +23,7 @@
 	}
 	
 	.supWide .image { width: 29.2%; }
-	.supWide .description { width: 66.8%; float: right; }
+	.supWide .description { margin-left: 33.4%;}
 	
 	.vawWide .image { margin: 0;}
 	.vawWide .description {margin-left: 50px; }

@@ -24,6 +24,8 @@
 				box-sizing: padding-box; box-sizing: border-box;
 	}
 	
+	.supWide .image { width: 43px; }
+	.supWide .description { margin-left: 14.171122994652406%; }
 	
 	.vawWide .description {width: 87.0160427807487%;}
 	
