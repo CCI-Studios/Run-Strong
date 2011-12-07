@@ -44,10 +44,10 @@ body { background: #f2f2f3; }
 	float: left;
 }
 
+#bottom { background: url('../images/bottom_shadowtop.png') top center no-repeat; background-size: contain; }
+
 /* POST CONTAINER FOR SUPPORTERS */
 #k2Container .itemContainer { margin: 20px 0; }
-
-#bottom { background: url('../images/bottom_shadowtop.png') top center no-repeat; background-size: contain; }
 
 #footer { border-bottom: 1px solid #e5e5e5; }
 
